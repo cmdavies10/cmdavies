@@ -1,92 +1,116 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Portfolio</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Chris Davies Portfolio</title>
+		<!-- Lato Font -->
 		<link
+			href="http://fonts.googleapis.com/css?family=Lato:300,400,700"
 			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+			type="text/css"
 		/>
-		<script
-			defer
-			src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
-		></script>
+
+		<!-- Stylesheet -->
+		<link href="css/gallery-materialize.min.css" rel="stylesheet" />
+
+		<!-- Material Icons -->
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+
+		<!-- Prism -->
+		<link href="css/prism.css" rel="stylesheet" />
 	</head>
+
 	<body>
-		<!-- <section class="hero is-primary"> -->
-		<!-- HERO HEAD -->
-		<!-- <div class="hero-head"> -->
-		<header class="navbar is-dark is-inverted">
-			<div class="container">
-				<div class="navbar-brand">
-					<a class="navbar-item">
-						CMD
-					</a>
-					<span
-						class="navbar-burger burger"
-						data-target="navbarMenuHero"
-					>
-						<span></span>
-						<span></span>
-						<span></span>
-					</span>
-				</div>
-				<div class="navbar-menu">
-					<div class="navbar-end">
-						<a href="#" class="navbar-item">
-							ABOUT
-						</a>
-						<a href="#" class="navbar-item">
-							RESUME
-						</a>
-						<a href="#" class="navbar-item">
-							PORTFOLIO
-						</a>
-						<a href="#" class="navbar-item">
-							<span class="icon">
-								<i class="fab fa-github"></i>
-							</span>
-						</a>
-					</div>
-				</div>
+		<!-- Navbar and Header -->
+		<nav class="nav-extended blue">
+			<div class="nav-background">
+				<div
+					class="pattern active"
+					style="background-image: url('http://placehold.it/1400x300');"
+				></div>
 			</div>
-		</header>
-		<!-- </div> -->
+			<div class="nav-wrapper container">
+				<!-- <a href="index.html" class="brand-logo"
+					><i class="material-icons">camera</i>Chris Davies</a
+				> -->
+				<a href="#" data-target="nav-mobile" class="sidenav-trigger"
+					><i class="material-icons">menu</i></a
+				>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="index.html">About Me</a></li>
+					<li><a href="index-dark.html">Resume</a></li>
+					<li><a href="blog.html">Portfolio</a></li>
+					<li><a href="docs.html">Docs</a></li>
+					<!-- <li>
+						<a
+							class="dropdown-trigger"
+							href="#"
+							data-target="feature-dropdown"
+							>Features<i class="material-icons right"
+								>arrow_drop_down</i
+							></a
+						>
+					</li> -->
+				</ul>
 
-		<!-- HERO CONTENT -->
-		<section class="hero is-light is-fullheight-with-navbar">
-			<div class="hero-body">
-				<div class="container has-text-centered">
-					<p class="title">CHRIS DAVIES</p>
-					<p class="subtitle">FULL-STACK DEVELOPER</p>
+				<!-- Dropdown Structure -->
+				<!-- <ul id="feature-dropdown" class="dropdown-content">
+					<li><a href="#">Fullscreen Header</a></li>
+					<li><a href="#">Horizontal Style</a></li>
+					<li><a href="#">No Image Expand</a></li>
+				</ul> -->
+
+				<div class="nav-header center">
+					<h1>CHRIS DAVIES</h1>
+					<div class="tagline">Full-Stack Developer | NYC</div>
 				</div>
 			</div>
-		</section>
+		</nav>
 
-		<section class="has-background-white">
-			<br />
-			<div class="container">
-				<div class="title has-text-centered">
-					About Me
-				</div>
-				<br />
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit.
-					Odio maxime aliquid laudantium cum, modi dicta adipisci
-					iusto vel necessitatibus magnam consectetur blanditiis amet
-					accusamus quasi veritatis quis, tempora ipsa. Alias?
-				</p>
-			</div>
-		</section>
+		<!-- sidenav for mobile respsoniveness -->
+		<ul class="sidenav" id="nav-mobile">
+			<li>
+				<a href="index.html">
+					<!-- <i class="material-icons">camera</i> -->
+					<h4>CHRIS DAVIES</h4>
+				</a>
+			</li>
+			<li>
+				<a href="index-dark.html"
+					><i class="material-icons">brightness_3</i>About Me</a
+				>
+			</li>
+			<li>
+				<a href="blog.html"
+					><i class="material-icons">edit</i>Portfolio</a
+				>
+			</li>
+			<li class="active">
+				<a href="docs.html"
+					><i class="material-icons">school</i>Resume</a
+				>
+			</li>
+			<li>
+				<a href="full-header.html"
+					><i class="material-icons">fullscreen</i>
+					Contact
+				</a>
+			</li>
+		</ul>
 
-		<br />
-		<br />
-
-		<footer class="footer has-background-dark has-text-white">
-			<div class="content has-text-centered">
-				footer
-			</div>
-		</footer>
+		<!-- Core Javascript -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="js/prism.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/masonry.pkgd.min.js"></script>
+		<script src="js/materialize.min.js"></script>
+		<script src="js/color-thief.min.js"></script>
+		<script src="js/galleryExpand.js"></script>
+		<script src="js/docs-init.js"></script>
 	</body>
 </html>

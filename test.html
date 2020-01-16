@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Portfolio</title>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+		/>
+		<script
+			defer
+			src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+		></script>
+		<script
+			src="https://code.jquery.com/jquery-3.4.1.min.js"
+			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<header class="navbar is-dark is-inverted">
+			<div class="container">
+				<div class="navbar-brand">
+					<a class="navbar-item">
+						CMD
+					</a>
+					<a
+						role="button"
+						class="navbar-burger"
+						aria-label="menu"
+						aria-expanded="false"
+					>
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
+					</a>
+				</div>
+				<div class="navbar-menu">
+					<div class="navbar-end">
+						<a href="#" class="navbar-item">
+							ABOUT
+						</a>
+						<a href="#" class="navbar-item">
+							RESUME
+						</a>
+						<a href="#" class="navbar-item">
+							PORTFOLIO
+						</a>
+						<a href="#" class="navbar-item">
+							<span class="icon">
+								<i class="fab fa-github"></i>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- </div> -->
+
+		<!-- HERO CONTENT -->
+		<section class="hero is-light is-fullheight-with-navbar">
+			<div class="hero-body">
+				<div class="container has-text-centered">
+					<p class="title">CHRIS DAVIES</p>
+					<p class="subtitle">FULL-STACK DEVELOPER</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="has-background-white">
+			<br />
+			<div class="container">
+				<div class="title has-text-centered">
+					About Me
+				</div>
+				<br />
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Odio maxime aliquid laudantium cum, modi dicta adipisci
+					iusto vel necessitatibus magnam consectetur blanditiis amet
+					accusamus quasi veritatis quis, tempora ipsa. Alias?
+				</p>
+			</div>
+		</section>
+
+		<br />
+		<br />
+
+		<footer class="footer has-background-dark has-text-white">
+			<div class="content has-text-centered">
+				footer
+			</div>
+		</footer>
+
+		<script src="text/javascript">
+			$(document).ready(function() {
+
+			  // Check for click events on the navbar burger icon
+			  $(".navbar-burger").click(function() {
+
+			      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+			      $(".navbar-burger").toggleClass("is-active");
+			      $(".navbar-menu").toggleClass("is-active");
+
+			  });
+			});
+		</script>
+	</body>
+</html>
