@@ -27,7 +27,7 @@
 
 	<body>
 		<!-- Navbar and Header -->
-		<nav class="nav-extended nav-full-header light-blue accent-3">
+		<nav id="home" class="nav-extended nav-full-header light-blue accent-3">
 			<div class="nav-background">
 				<!-- <div
 					class="pattern active"
@@ -42,10 +42,10 @@
 					><i class="material-icons">menu</i></a
 				>
 				<ul class="right hide-on-med-and-down">
-					<li><a href="#">About Me</a></li>
-					<li><a href="#">Resume</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="#about-me">About Me</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#resume" id="resume">Resume</a></li>
+					<li><a href="#contact">Contact</a></li>
 					<!-- <li>
 						<a
 							class="dropdown-trigger"
@@ -101,10 +101,7 @@
 				<div class="col s12 l10">
 					<!-- ABOUT ME -->
 					<div id="about-me" class="scrollspy">
-						<h4 style="text-align: center;">About Me</h4>
-
-						<!-- <hr style="width: 50%" /> -->
-						<br />
+						<h4 style="text-align: center;">ABOUT ME</h4>
 
 						<div class="container">
 							<p>
@@ -123,13 +120,10 @@
 					</div>
 
 					<br />
-					<!-- <br /> -->
 
 					<!-- PORTFOLIO -->
 					<div id="portfolio" class="scrollspy">
 						<h4 style="text-align: center;">PORTFOLIO</h4>
-
-						<!-- <hr style="width: 50%" /> -->
 						<br />
 
 						<div class="container">
@@ -547,10 +541,7 @@
 
 					<!-- RESUME -->
 					<div id="resume" class="scrollspy">
-						<h4 style="text-align: center;">Resume</h4>
-
-						<!-- <hr style="width: 50%" /> -->
-						<br />
+						<h4 style="text-align: center;">RESUME</h4>
 
 						<div class="container">
 							<p>
@@ -570,12 +561,12 @@
 				</div>
 
 				<div class="col s12 l2">
-					<ul class="section table-of-contents hide-on-med-and-down">
-						<li><a href="#gallery-expand">Home</a></li>
+					<ul class="section table-of-contents hide-on-small-only">
+						<li><a href="#home">Home</a></li>
 						<li><a href="#about-me">About Me</a></li>
 						<li><a href="#portfolio">Portfolio</a></li>
-						<li><a href="#options">Resume</a></li>
-						<li><a href="#methods">Contact</a></li>
+						<li><a href="#resume">Resume</a></li>
+						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</div>
 			</div>
