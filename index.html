@@ -27,43 +27,24 @@
 
 	<body>
 		<!-- Navbar and Header -->
-		<nav id="home" class="nav-extended nav-full-header nav-background" style="background-image: url('/assets/img/20170628-DSC00254-4.jpg');">
-			<!-- <div class="nav-background">
-				<div
-					style="background-image: url('/assets/img/20170629-DSC06225.jpg');"
-				></div>
-			</div> -->
-			<div>
-				<a href="#" data-target="nav-mobile" class="sidenav-trigger"
-					><i class="material-icons">menu</i></a
-				>
+		<nav 
+			id="home" 
+			class="nav-extended nav-full-header nav-background" 
+			style="background-image: url('/assets/img/20170628-DSC00254-4.jpg');"
+		>
+			<div class="container">
+				<a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 				<ul class="right hide-on-med-and-down">
 					<li><a href="#about-me">About Me</a></li>
 					<li><a href="#portfolio">Portfolio</a></li>
-					<li><a href="#resume" id="resume">Resume</a></li>
-					<li><a href="#contact">Contact</a></li>
-					<!-- <li>
-						<a
-							class="dropdown-trigger"
-							href="#"
-							data-target="feature-dropdown"
-							>Features<i class="material-icons right"
-								>arrow_drop_down</i
-							></a
-						>
-					</li> -->
+					<li><a href="#experience">Experience</a></li>
+					<li><a href="#education">Education</a></li>
+					<!-- <li><a href="#contact">Contact</a></li> -->
 				</ul>
-
-				<!-- Dropdown Structure -->
-				<!-- <ul id="feature-dropdown" class="dropdown-content">
-					<li><a href="#">Fullscreen Header</a></li>
-					<li><a href="#">Horizontal Style</a></li>
-					<li><a href="#">No Image Expand</a></li>
-				</ul> -->
 
 				<div class="nav-header center">
 					<h1>CHRIS DAVIES</h1>
-					<div class="tagline">Full-Stack Developer | NYC</div>
+					<div class="tagline">FULL-STACK DEVELOPER | NEW YORK CITY</div>
 				</div>
 			</div>
 		</nav>
@@ -77,18 +58,16 @@
 				</a>
 			</li>
 			<li>
-				<a href="#"
-					><i class="material-icons">brightness_3</i>About Me</a
-				>
+				<a href="#about-me"><i class="material-icons">brightness_3</i>About Me</a>
 			</li>
 			<li>
-				<a href="#"><i class="material-icons">edit</i>Portfolio</a>
+				<a href="#portfolio"><i class="material-icons">edit</i>Portfolio</a>
 			</li>
 			<li>
-				<a href="#"><i class="material-icons">school</i>Resume</a>
+				<a href="#experience"><i class="material-icons">edit</i>Professional Experience</a>
 			</li>
 			<li>
-				<a href="#"><i class="material-icons">fullscreen</i>Contact</a>
+				<a href="#education"><i class="material-icons">school</i>Education</a>
 			</li>
 		</ul>
 
@@ -98,21 +77,12 @@
 					
 					<!-- ABOUT ME -->
 					<div id="about-me" class="scrollspy">
-						<h4 style="color: midnightblue; text-align: center;">ABOUT ME</h4>
+						<h4 style="text-align: center; color: midnightblue; font-weight: bold;">ABOUT ME</h4>
+
+						<hr style="width: 15%;"> 
 
 						<div class="container">
-							<p>
-								Lorem, ipsum dolor sit amet consectetur
-								adipisicing elit. Itaque veniam vel molestiae
-								ipsum assumenda quis quasi asperiores aliquid,
-								quia modi voluptatibus cumque dicta laborum ad
-								rerum earum? Dicta, culpa fuga! Lorem, ipsum
-								dolor sit amet consectetur adipisicing elit.
-								Nam, delectus fugiat dolorum magnam explicabo
-								consequuntur libero maxime laborum corrupti quo
-								tempora distinctio cumque, mollitia pariatur,
-								vitae architecto voluptatum itaque ab?
-							</p>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima et sint quos eligendi, delectus ut nisi, quibusdam libero iusto voluptate repellendus fugit obcaecati dignissimos, reiciendis modi maxime quidem sit eaque.</p>
 						</div>
 					</div>
 
@@ -120,33 +90,30 @@
 
 					<!-- PORTFOLIO -->
 					<div id="portfolio" class="scrollspy">
-						<h4 style="color: midnightblue; text-align: center;">PORTFOLIO</h4>
+						<h4 style="text-align: center; color: midnightblue; font-weight: bold;">PORTFOLIO</h4>
+
+						<hr style="width: 15%;"> 
 						<br>
-						<!-- <hr style="width: 40%; color: white;"> -->
+						
 						<div class="container">
 							<div class="gallery row">
 
 								<!-- LIRI Node App -->
-								<div
-									class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon"
-								>
-									<div class="gallery-curve-wrapper" style="color: white;">
-										<div class="gallery-header" style="background-color: lightskyblue; color: white;">
-											<h5>LIRI NODE APP</h5>
-											<p style="color: white;">
+								<div class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon">
+									<div class="gallery-curve-wrapper" style="color: black;">
+										<div class="gallery-header">
+											<h5 style="color: midnightblue; font-weight: bold;">LIRI NODE APP</h5>
+											<p style="color:black;">
 												LIRI (Language Interpretation & Recognition Interface) is a CLI node app that takes in parameters and returns API-driven data
 											</p>
 											<hr>
-											<h6>TECH STACK: </h6>
-											<p style="color: white;">
+											<h6 style="color: midnightblue; font-weight: bold;">TECH STACK: </h6>
+											<p style="color: black;">
 												Node, Axios, Moment and FS
 											</p>
 										</div>
 
-										<div
-											class="gallery-body"
-											style="font-size: 12px; color: white;"
-										>
+										<div class="gallery-body" style="font-size: 12px; color: black;">
 											<div class="title-wrapper">
 												<h4>LIRI Node App</h4>
 											</div>
@@ -191,7 +158,6 @@
 													<li>NOTE: LIRI will default to 'Mr. Nobody' if user input is left blank</li>
 													<li>Screenshot:</li>
 												</ol>
-												
 											</p>
 											<img src="/assets/img/movie-this_edit.png" alt="movie-this"/>
 											<p class="description">
@@ -230,26 +196,21 @@
 								</div>
 
 								<!-- GAME OF MEMORIES -->
-								<div
-									class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon"
-								>
+								<div class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon">
 									<div class="gallery-curve-wrapper">
-										<div class="gallery-header" style="background-color: lightskyblue; color: white;">
-											<h5>GAME OF MEMORIES</h5>
-											<p style="color: white;">
+										<div class="gallery-header">
+											<h5 style="color: midnightblue; font-weight: bold;">GAME OF MEMORIES</h5>
+											<p style="color: black;">
 												Game of Memories is a React application memory game that challenges the user to never choose a character twice
 											</p>
 											<hr>
-											<h6>TECH STACK: </h6>
-											<p style="color: white;">
+											<h6 style="color: midnightblue; font-weight: bold;">TECH STACK: </h6>
+											<p style="color: black;">
 												React, JavaScript
 											</p>
 										</div>
 
-										<div
-											class="gallery-body"
-											style="font-size: 12px;"
-										>
+										<div class="gallery-body" style="font-size: 12px;">
 											<div class="title-wrapper">
 												<h4>GAME OF MEMORIES</h4>
 											</div>
@@ -269,26 +230,21 @@
 								</div>
 
 								<!-- STOREFRONT MANAGER -->
-								<div
-									class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon"
-								>
+								<div class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon">
 									<div class="gallery-curve-wrapper">
-										<div class="gallery-header" style="background-color: lightskyblue; color: white;">
+										<div class="gallery-header">
 											<h5>STORE MANAGER</h5>
-											<p style="color: white ;">
+											<p style="color: black;">
 												Storefront Manager is a command line interface application that utilizes Node and MySQL to allow users to interact with data using a mock online store.
 											</p>
 											<hr>
 											<h6>TECH STACK: </h6>
-											<p style="color: white;">
+											<p style="color: black;">
 												JavaScript, Node, MySQL, Inquirer
 											</p>
 										</div>
 
-										<div
-											class="gallery-body"
-											style="font-size: 12px;"
-										>
+										<div class="gallery-body" style="font-size: 12px;">
 											<div class="title-wrapper">
 												<h4>STOREFRONT MANAGER</h4>
 											</div>
@@ -373,26 +329,21 @@
 								</div>
 
 								<!-- FRENEMY FINDER -->
-								<div
-									class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon"
-								>
+								<div class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon">
 									<div class="gallery-curve-wrapper">
-										<div class="gallery-header" style="background-color: lightskyblue; color: white;">
+										<div class="gallery-header">
 											<h5>FRENEMY FINDER</h5>
-											<p style="color: white;">
+											<p style="color: black;">
 												Frenemy Finder is a compatibility-based "FriendFinder" application -- basically a dating app. This full-stack application matches users with their most compatible "Frenemy"
 											</p>
 											<hr />
 											<h6>TECH STACK: </h6>
-											<p style="color: white;">
+											<p style="color: black;">
 												Node, Express, JQuery
 											</p>
 										</div>
 
-										<div
-											class="gallery-body"
-											style="font-size: 12px;"
-										>
+										<div class="gallery-body" style="font-size: 12px;">
 											<div class="title-wrapper">
 												<h4>FRENEMY FINDER</h4>
 											</div>
@@ -408,26 +359,21 @@
 								</div>
 
 								<!-- MONGO SCRAPER -->
-								<div
-									class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon"
-								>
+								<div class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon">
 									<div class="gallery-curve-wrapper">
-										<div class="gallery-header" style="background-color: lightskyblue; color: white;">
+										<div class="gallery-header">
 											<h5>MONGO SCRAPER: NYT</h5>
-											<p style="color: white;">
+											<p style="color: black;">
 												This app scrapes articles from the New York Times website and lets users post comments on the latest news.
 											</p>
 											<hr />
 											<h6>TECH STACK: </h6>
-											<p style="color: white;">
+											<p style="color: black;">
 												Node, MongoDB, Express, Handlebars, Mongoose, Axios
 											</p>
 										</div>
 
-										<div
-											class="gallery-body"
-											style="font-size: 12px;"
-										>
+										<div class="gallery-body" style="font-size: 12px;">
 											<div class="title-wrapper">
 												<h4>MONGO SCRAPER: NYT WORLD SECTION</h4>
 											</div>
@@ -444,13 +390,11 @@
 								</div>
 
 								<!-- EAT-DA-BURGER -->
-								<div
-									class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon"
-								>
+								<div class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon">
 									<div class="gallery-curve-wrapper">
-										<div class="gallery-header" style="background-color: lightskyblue; color: white;">
+										<div class="gallery-header">
 											<h5>Eat-Da-Burger</h5>
-											<p style="color: white;">
+											<p style="color: black;">
 												Eat-Da-Burger! is a restaurant
 												app that lets users input the
 												names of burgers they'd like to
@@ -460,46 +404,28 @@
 											</p>
 											<hr />
 											<h6>TECH STACK: </h6>
-											<p style="color: white;">
+											<p style="color: black;">
 												Node, Express, MySQL, Handlebars
 											</p>
 										</div>
 
-										<div
-											class="gallery-body"
-											style="font-size: 12px;"
-										>
+										<div class="gallery-body" style="font-size: 12px;">
 											<div class="title-wrapper">
 												<h4>Eat-Da-Burger</h4>
 											</div>
-											<img
-												src="/assets/img/eatdaburger.png"
-												alt="burger-logo"
-											/>
+											<img src="/assets/img/eatdaburger.png" alt="burger-logo"/>
 											<h5>OVERVIEW</h5>
 											<p class="description">
-												Eat-Da-Burger! is a restaurant
-												app that lets users input the
-												names of burgers they'd like to
-												eat.
+												Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
 											</p>
 											<p class="description">
-												Whenever a user submits a
-												burger's name, your app will
-												display the burger on the "Wish
-												List" -- waiting to be devoured. 
+												Whenever a user submits a burger's name, your app will display the burger on the "Wish List" -- waiting to be devoured. 
 											</p>
 											<p class="description">
-												Each burger in the waiting area
-												also has a Devour it! button.
-												When the user clicks it, the
-												burger will move to the devoured
-												section of the page.
+												Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the devoured section of the page.
 											</p>
 											<p class="description">
-												The app will store every burger
-												in a database, whether devoured
-												or not.
+												The app will store every burger in a database, whether devoured or not.
 											</p>
 											<h5>TECH STACK:</h5>
 											<p class="description">
@@ -513,24 +439,27 @@
 						</div>
 					</div>
 
+					<br>
+					<!-- <br> -->
+
 					<!-- EXPERIENCE -->
-					<div id="resume" class="scrollspy">
-						<h4 style="text-align: center; color: midnightblue;">PROFESSIONAL EXPERIENCE</h4>
-						<!-- <hr style="width: 40%; color: white;"> -->
-						<br>
+					<div id="experience" class="scrollspy">
+						<h4 style="text-align: center; color: midnightblue; font-weight: bold;">PROFESSIONAL EXPERIENCE</h4>
+						<hr style="width: 35%;">
+						<!-- <br> -->
 						<div class="container">
-							<ul style="list-style-type:square; text-align: left;">
+							<ul style="list-style-type:square; text-align: center;">
 								<h5>MML CAPITAL PARTNERS, LLC</h5>
 								<h6>CONSULTANT - PRIVATE EQUITY</h6>
-								<br>
+								<!-- <br> -->
 								<br>
 								<h5>LAMPERT DEBT ADVISORS, LLC</h5>
 								<h6>SENIOR ASSOCIATE - LEVERAGED FINANCE</h6>
-								<br>
+								<!-- <br> -->
 								<br>
 								<h5>TNT CRANE & RIGGING, INC.</h5>
 								<h6>ASSOCIATE - M&A AND CORPORATE FINANCE</h6>
-								<br>
+								<!-- <br> -->
 								<br>
 								<h5>DELOITTE & TOUCHE, LLC</h5>
 								<h6>CONSULTANT - FINANCIAL INSTRUMENT VALUATION</h6>
@@ -539,29 +468,30 @@
 					</div>
 
 					<br>
+					<br>
 
 					<!-- EDUCATION -->
 					<div id="education" class="scrollspy">
-						<h4 style="text-align: center; color: midnightblue;">EDUCATION</h4>
-						<!-- <hr style="width: 15%;"> -->
-						<br>
+						<h4 style="text-align: center; color: midnightblue; font-weight: bold;">EDUCATION</h4>
+						<hr style="width: 15%;">
+						<!-- <br> -->
 						<div class="container">
-							<ul style="list-style-type:square; text-align: left;">
+							<ul style="list-style-type:square; text-align: center;">
 								<h5>COLUMBIA UNIVERISTY SCHOOL OF ENGINEERING</h5>
 								<h6>FULL-STACK PROGRAMMING / COMPUTER SCIENCE</h6>
 								<!-- <hr> -->
-								<br>
+								<!-- <br> -->
 								<br>
 								<h5>WASHINGTON & LEE UNIVERSITY (LEXINGTON, VA)</h5>
 								<h6>B.A., ECONOMICS | WILLIAMS SCHOOL OF COMMERCE</h6>
-								<br>
+								<!-- <br> -->
 								<br>
 								<h5>LONDON SCHOOL OF ECONOMICS (LONDON, UK)</h5>
 								<h6>INTERNATIONAL POLICY ANALYSIS</h6>
-								<br>
+								<!-- <br> -->
 								<br>
 								<h5>HARROW SCHOOL (LONDON, UK)</h5>
-								<h6>A-LEVELS: ECONOMICS, MATH AND ENGLISH LITERATURE</h6>
+								<h6>A-LEVELS: ECONOMICS, MATHEMATICS AND ENGLISH LITERATURE</h6>
                             </ul>
 						</div>
 					</div>
@@ -573,8 +503,9 @@
 						<li><a href="#home">Home</a></li>
 						<li><a href="#about-me">About Me</a></li>
 						<li><a href="#portfolio">Portfolio</a></li>
-						<li><a href="#resume">Resume</a></li>
-						<li><a href="#contact">Contact</a></li>
+						<li><a href="#experience">Experience</a></li>
+						<li><a href="#education">Education</a></li>
+						<!-- <li><a href="#contact">Contact</a></li> -->
 					</ul>
 				</div>
 			</div>
