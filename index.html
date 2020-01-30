@@ -27,17 +27,13 @@
 
 	<body>
 		<!-- Navbar and Header -->
-		<nav id="home" class="nav-extended nav-full-header light-blue accent-3">
-			<div class="nav-background">
-				<!-- <div
-					class="pattern active"
-					style="background-image: url('http://placehold.it/1400x300');"
-				></div> -->
-			</div>
+		<nav id="home" class="nav-extended nav-full-header nav-background" style="background-image: url('/assets/img/20170628-DSC00254-4.jpg');">
+			<!-- <div class="nav-background">
+				<div
+					style="background-image: url('/assets/img/20170629-DSC06225.jpg');"
+				></div>
+			</div> -->
 			<div>
-				<!-- <a href="index.html" class="brand-logo"
-					><i class="material-icons">camera</i>Chris Davies</a
-				> -->
 				<a href="#" data-target="nav-mobile" class="sidenav-trigger"
 					><i class="material-icons">menu</i></a
 				>
@@ -128,75 +124,8 @@
 
 						<div class="container">
 							<div class="gallery row">
-								<!-- first project -->
-								<div
-									class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon"
-								>
-									<div class="gallery-curve-wrapper">
-										<!-- <a class="gallery-cover gray" style="height: 250px; width: 170px;">
-									<img src="http://placehold.it/170x250" alt="placeholder">
-									</a> -->
 
-										<div class="gallery-header">
-											<h5>Eat-Da-Burger</h5>
-											<p>
-												Eat-Da-Burger! is a restaurant
-												app that lets users input the
-												names of burgers they'd like to
-												eat.
-											</p>
-											<hr />
-											<p>
-												TECH STACK: Node, Express,
-												MySQL, Handlebars
-											</p>
-										</div>
-
-										<div
-											class="gallery-body"
-											style="font-size: 12px;"
-										>
-											<div class="title-wrapper">
-												<h4>Eat-Da-Burger</h4>
-											</div>
-											<img
-												src="/assets/img/eatdaburger.png"
-												alt="burger-logo"
-											/>
-											<h5>OVERVIEW</h5>
-											<p class="description">
-												Eat-Da-Burger! is a restaurant
-												app that lets users input the
-												names of burgers they'd like to
-												eat.
-											</p>
-											<p class="description">
-												Whenever a user submits a
-												burger's name, your app will
-												display the burger on the "Wish
-												List" -- waiting to be devoured.
-											</p>
-											<p class="description">
-												Each burger in the waiting area
-												also has a Devour it! button.
-												When the user clicks it, the
-												burger will move to the devoured
-												section of the page.
-											</p>
-											<p class="description">
-												The app will store every burger
-												in a database, whether devoured
-												or not.
-											</p>
-											<h5>TECH STACK:</h5>
-											<p class="description">
-												NodeJS, Express, MySQL, Handlebars
-											</p>
-										</div>
-									</div>
-								</div>
-
-								<!-- second project -->
+								<!-- LIRI Node App -->
 								<div
 									class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon"
 								>
@@ -211,7 +140,7 @@
 												data.
 											</p>
 											<hr>
-											<h6>TECH STACK</h6>
+											<h6>TECH STACK: </h6>
 											<p>
 												Node, Axios, Moment and FS; APIs: Node-Spotify-Api, Bands in Town,
 												Spotify and OMDB
@@ -287,7 +216,6 @@
 											<hr>
 											<p class="description">
 												In the terminal, users enter node liri.js followed by one of the following:
-												
 												<ol>
 													<li>concert-this artist/band</li>
 													<li>spotify-this-song song name</li>
@@ -305,7 +233,7 @@
 									</div>
 								</div>
 
-								<!-- third project -->
+								<!-- GAME OF MEMORIES -->
 								<div
 									class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon"
 								>
@@ -327,7 +255,7 @@
 											style="font-size: 12px;"
 										>
 											<div class="title-wrapper">
-												<h4>Eat-Da-Burger</h4>
+												<h4>GAME OF MEMORIES</h4>
 											</div>
 											<h5>OVERVIEW</h5>
 											<p class="description">
@@ -336,7 +264,7 @@
 											<p class="description">
 												Points are scored for each click of a character that has not yet been chosen, however the game is lost and the score count reset to zero if a duplicate choice has been made.
 											</p>
-											<h5>TECH STACK:</h5>
+											<h6>TECH STACK:</h6>
 											<p class="description">
 												NodeJS, Express, MySQL, Handlebars
 											</p>
@@ -344,13 +272,153 @@
 									</div>
 								</div>
 
-								<!-- fourth project -->
+								<!-- STOREFRONT MANAGER -->
 								<div
 									class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon"
 								>
 									<div class="gallery-curve-wrapper">
 										<div class="gallery-header">
-											<h5>MONGO SCRAPER: NYT WORLD SECTION</h5>
+											<h5>STOREFRONT MANAGER</h5>
+											<p>
+												Storefront Manager is a command line interface application that utilizes Node and MySQL to allow users to interact with data using a mock online store.
+											</p>
+											<hr>
+											<h6>TECH STACK: </h6>
+											<p>
+												JavaScript, Node, MySQL, Inquirer
+											</p>
+										</div>
+
+										<div
+											class="gallery-body"
+											style="font-size: 12px;"
+										>
+											<div class="title-wrapper">
+												<h4>STOREFRONT MANAGER</h4>
+											</div>
+											<h5>OVERVIEW</h5>
+											<p class="description">
+												Storefront Manager is a command line interface application that utilizes Node and MySQL to allow users to interact with data using a mock online store. Two separate CLI applications mimic the user interface from both customer and manager viewpoints. The structure and initial content for the database used in both applications can be found within the bamazon.sql and seeds.sql files.
+											</p>
+											<h6>CUSTOMER VIEW</h6>
+											<p class="description">
+												<ol>
+													<li>Users start the application by entering node bamazonCustomer into the terminal.</li>
+													<li>The details of each item available for purchase are then listed and the user is then prompted to choose the item ID of the product they wish to purchase.</li>
+													<li>The app will prompt the user to choose how much/many of the item they want to buy</li>
+													<li>Once the customer has placed the order the app will check the store's inventory and either (a) return "Error: Insufficient Quantity" if there is not enough of that specific product or (b) reduce the inventory count by the amount purhcased and return "Product Purchased Successfully and Inventory Updated" and display the total cost.</li>
+													<li>Screenshots:</li>
+												</ol>
+												<img src="/assets/img/concert-this-edit.png" alt="concert-this"/>
+											</p>	
+											<p class="description">
+												2. <strong>spotify-this-song</strong> utilizes the node-spotify-api package to retrieve the following song information from the Spotify API:
+
+												<ol>
+													<li>Artist(s)</li>
+													<li>Song Name</li>
+													<li>Preview Link from Spotfiy</li>
+													<li>Album Name</li>
+													<li>Screenshot:</li>
+												</ol>
+												<img src="/assets/img/spotify-this-song_edit.png" alt="spotify-this"/>
+											</p>
+											<p class="description">
+												3. <strong>movie-this</strong> uses the OMDB API to output the following information on a given movie to the terminal:
+
+												<ol>
+													<li>Movie Title</li>
+													<li>Release Year</li>
+													<li>IMDB Rating</li>
+													<li>Rotten Tomatoes Rating</li>
+													<li>Country of Production</li>
+													<li>Language(s)</li>
+													<li>Plot</li>
+													<li>Actor(s) Name(s)</li>
+													<li>NOTE: LIRI will default to 'Mr. Nobody' if user input is left blank</li>
+													<li>Screenshot:</li>
+												</ol>
+												
+											</p>
+											<img src="/assets/img/movie-this_edit.png" alt="movie-this"/>
+											<p class="description">
+												4. <strong>do-what-it-says</strong> reads text from inside the random.txt file and calls one of LIRI'scommands
+											</p>
+											<img src="/assets/img/do-what-it-says_edit.png" alt="do-what-it-says"/>		<p class="description">
+											<p class="description">
+												Additionally, LIRI will create a log.txt file and append the results from any valid command. Here is an example output from the log:
+										    </p>
+											<img src="/assets/img/log-txt_edit.png" alt="log"/>
+											<h5>INSTRUCTIONS</h5>
+											<p class="description">
+												In order to run LIRI, please ensure that Node is installed and create a local .env file that includes the code below, replacing the values with your Spotify API keys: API details are stored within a local .env
+											</p>
+											<hr>
+											<p>SPOTIFY_ID=your-spotify-id</p>
+											<p>SPOTIFY_SECRET=your-spotify-secret</p>
+											<hr>
+											<p class="description">
+												In the terminal, users enter node liri.js followed by one of the following:
+												<ol>
+													<li>concert-this artist/band</li>
+													<li>spotify-this-song song name</li>
+													<li>movie-this movie name</li>
+													<li>do-what-it-says</li>
+												</ol>
+											</p>
+											<h5>TECH STACK:</h5>
+												<ul>
+													<li>NodeJS</li>
+													<li>Packages: Axios, Node-Spotify-Api, Moment and FS</li>
+													<li>APIs: Bands in Town, Spotify and OMDB</li>
+												</ul>
+										</div>
+									</div>
+								</div>
+
+								<!-- FRENEMY FINDER -->
+								<div
+									class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon"
+								>
+									<div class="gallery-curve-wrapper">
+										<div class="gallery-header">
+											<h5>FRENEMY FINDER</h5>
+											<p>
+												Frenemy Finder is a compatibility-based "FriendFinder" application -- basically a dating app. This full-stack application matches users with their most compatible "Frenemy" using user-generated surveys.
+											</p>
+											<hr />
+											<h6>TECH STACK: </h6>
+											<p>
+												Node, Express, JQuery
+											</p>
+										</div>
+
+										<div
+											class="gallery-body"
+											style="font-size: 12px;"
+										>
+											<div class="title-wrapper">
+												<h4>FRENEMY FINDER</h4>
+											</div>
+											<p class="description">
+												Frenemy Finder is a compatibility-based "FriendFinder" application -- basically a dating app. This full-stack site will take in results from users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
+											</p>
+											<h5>TECH STACK:</h5>
+											<p class="description">
+												Node, Express, JQuery
+											</p>
+										</div>
+									</div>
+								</div>
+
+								<!-- MONGO SCRAPER -->
+								<div
+									class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon"
+								>
+									<div class="gallery-curve-wrapper">
+										<div class="gallery-header">
+											<h5>MONGO SCRAPER: </h5>
+											<h5>NYT EDITION</h6>
 											<p>
 												This app scrapes articles from the New York Times website and lets users post comments on the latest news.
 											</p>
@@ -380,76 +448,30 @@
 									</div>
 								</div>
 
-								<!-- fifth project -->
-								<div
-									class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon"
-								>
-									<div class="gallery-curve-wrapper">
-										<div class="gallery-header">
-											<h5>Test</h5>
-											<p>
-												Lorem ipsum dolor sit, amet
-												consectetur adipisicing elit.
-												Quidem, corporis quas incidunt
-												provident nulla molestiae nihil
-												maxime, esse eaque magni officia
-												dolore ipsam, nemo voluptas
-												atque. Illo reprehenderit minima
-												ea!
-											</p>
-										</div>
-
-										<div
-											class="gallery-body"
-											style="font-size: 12px;"
-										>
-											<div class="title-wrapper">
-												<h4>Test</h4>
-											</div>
-											<p class="description">
-												Lorem ipsum dolor sit amet
-												consectetur adipisicing elit.
-												Rem labore nobis exercitationem
-												accusamus ea officia deleniti
-												nisi! Voluptatibus, porro, fugit
-												ab numquam asperiores minima
-												quos architecto, veniam nisi
-												labore corrupti.
-											</p>
-											<p class="description">
-												Lorem ipsum dolor sit amet
-												consectetur adipisicing elit.
-												Rem labore nobis exercitationem
-												accusamus ea officia deleniti
-												nisi! Voluptatibus, porro, fugit
-												ab numquam asperiores minima
-												quos architecto, veniam nisi
-												labore corrupti.
-											</p>
-										</div>
-									</div>
-								</div>
-
-								<!-- sixth project -->
+								<!-- EAT-DA-BURGER -->
 								<div
 									class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon"
 								>
 									<div class="gallery-curve-wrapper">
 										<!-- <a class="gallery-cover gray" style="height: 250px; width: 170px;">
 									<img src="http://placehold.it/170x250" alt="placeholder">
-									</a>
+									</a> -->
 
 										<div class="gallery-header">
-											<h5>Test</h5>
+											<h5>Eat-Da-Burger</h5>
 											<p>
-												Lorem ipsum dolor sit, amet
-												consectetur adipisicing elit.
-												Quidem, corporis quas incidunt
-												provident nulla molestiae nihil
-												maxime, esse eaque magni officia
-												dolore ipsam, nemo voluptas
-												atque. Illo reprehenderit minima
-												ea!
+												Eat-Da-Burger! is a restaurant
+												app that lets users input the
+												names of burgers they'd like to
+												eat. The app will store every burger
+												in a database, whether devoured
+												or not.
+											</p>
+											<hr />
+											<h6>TECH STACK: </h6>
+											<p>
+												Node, Express,
+												MySQL, Handlebars
 											</p>
 										</div>
 
@@ -458,40 +480,43 @@
 											style="font-size: 12px;"
 										>
 											<div class="title-wrapper">
-												<h4>Test</h4>
+												<h4>Eat-Da-Burger</h4>
 											</div>
+											<img
+												src="/assets/img/eatdaburger.png"
+												alt="burger-logo"
+											/>
+											<h5>OVERVIEW</h5>
 											<p class="description">
-												Lorem ipsum dolor sit amet
-												consectetur adipisicing elit.
-												Rem labore nobis exercitationem
-												accusamus ea officia deleniti
-												nisi! Voluptatibus, porro, fugit
-												ab numquam asperiores minima
-												quos architecto, veniam nisi
-												labore corrupti.
+												Eat-Da-Burger! is a restaurant
+												app that lets users input the
+												names of burgers they'd like to
+												eat.
 											</p>
 											<p class="description">
-												Lorem ipsum dolor sit amet
-												consectetur adipisicing elit.
-												Rem labore nobis exercitationem
-												accusamus ea officia deleniti
-												nisi! Voluptatibus, porro, fugit
-												ab numquam asperiores minima
-												quos architecto, veniam nisi
-												labore corrupti.
+												Whenever a user submits a
+												burger's name, your app will
+												display the burger on the "Wish
+												List" -- waiting to be devoured. 
 											</p>
-
-											<!-- <div class="carousel-wrapper">
-											<div class="carousel">
-												<a class="carousel-item" href="#one!"><img src="http://placehold.it/170x250"></a>
-												<a class="carousel-item" href="#two!"><img src="img/geometric-maze.jpg"></a>
-												<a class="carousel-item" href="#three!"><img src="img/geometric-ice.jpg"></a>
-												<a class="carousel-item" href="#four!"><img src="img/geometric-cave.jpg"></a>
-												<a class="carousel-item" href="#five!"><img src="img/geometric-grapefruit.jpg"></a>
-											</div>
-										</div> -->
+											<p class="description">
+												Each burger in the waiting area
+												also has a Devour it! button.
+												When the user clicks it, the
+												burger will move to the devoured
+												section of the page.
+											</p>
+											<p class="description">
+												The app will store every burger
+												in a database, whether devoured
+												or not.
+											</p>
+											<h5>TECH STACK:</h5>
+											<p class="description">
+												NodeJS, Express, MySQL, Handlebars
+											</p>
 										</div>
-
+									</div>
 								</div>
 
 							</div>
@@ -522,7 +547,7 @@
 				</div>
 
 				<div class="col s12 l2">
-					<ul class="section table-of-contents hide-on-small-only">
+					<ul class="section table-of-contents hide-on-med-and-down">
 						<li><a href="#home">Home</a></li>
 						<li><a href="#about-me">About Me</a></li>
 						<li><a href="#portfolio">Portfolio</a></li>
