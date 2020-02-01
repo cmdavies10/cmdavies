@@ -31,12 +31,10 @@
 
 	<body>
 		<!-- Navbar and Header -->
-		
-		<nav 
-			id="home" 
-			class="nav-extended nav-full-header" 
-			style="background-image: url('/assets/img/stock/beach-black-and-white-dramatic-horizon-331092-5.jpg');"
-		>
+		<nav id="home" class="nav-extended" style="background-color: black;">
+		<div class="nav-background" style="opacity: 1;">
+			<img class="active" src="/assets/img/stock/beach-black-and-white-dramatic-horizon-331092-5.jpg" alt="waves">
+		</div>
 			<div >
 				<a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 				<div>
@@ -48,7 +46,8 @@
 						<li><a href="#experience" style="font-size: 14px;">EXPERIENCE</a></li>
 						<li> | </li>
 						<li><a href="#education" style="font-size: 14px;">EDUCATION</a></li>
-						<!-- <li><a href="#contact">Contact</a></li> -->
+						<li> | </li>
+						<li><a href="#photography">PHOTOGRAPHY</a></li>
 					</ul>
 				</div>
 				
@@ -66,7 +65,7 @@
 		</nav>
 
 		<!-- =================================== SIDENAV =========================================-->
-		<ul class="sidenav" id="nav-mobile" style="background-color: rgb(145, 162, 184); color: white;">
+		<ul class="sidenav" id="nav-mobile" style="background-color: rgb(166, 185, 209); color: white;">
 			<li>
 				<a href="#about-me">
 					<h4 style="color: white; text-align: center;">CHRIS DAVIES</h4>
@@ -88,13 +87,15 @@
 		</ul>
 
 		<!-- =================================== MAIN =========================================-->
-		<div id="main" class="section gray" style="background-color: rgb(117, 161, 189);">
+		<div id="main" class="section gray" style="background-color: rgb(62, 143, 194);">
 			<div class="row">
 				<div class="col s12 l10">
 					
 					<!-- =================================== ABOUT ME =========================================-->
 					<div id="about-me" class="scrollspy">
 						<h4 style="text-align: center; color: white; font-weight: bold;">ABOUT ME</h4>
+						
+						<hr style="width: 15%;">
 
 						<div class="container" style="text-align: justify; color: white;">
 							<!-- <div class="col s4">
@@ -107,12 +108,13 @@
 						</div>
 					</div>
 
-					<br />
+					<!-- <br /> -->
 
 					<!-- =================================== PORTFOLIO =========================================-->
 					<div id="portfolio" class="scrollspy">
 						<h4 style="text-align: center; color: white; font-weight: bold;">PORTFOLIO</h4>
 
+						<hr style="width: 15%;">
 						<br>
 						
 						<div class="container">
@@ -122,12 +124,12 @@
 								<div class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon">
 									<div class="gallery-curve-wrapper" style="color: black;">
 										<div class="gallery-header" style="height: auto;">
-											<h5 style="color: midnightblue; font-weight: bold;">LIRI NODE APP</h5>
-											<p style="color:black;">
+											<h5 style="color: rgb(50, 109, 238); font-weight: bold;">LIRI NODE APP</h5>
+											<p style="color: black;">
 												LIRI (Language Interpretation & Recognition Interface) is a CLI node app that takes in parameters and returns API-driven data
 											</p>
 											<hr>
-											<h6 style="color: midnightblue; font-weight: bold;">TECH STACK: </h6>
+											<h6 style="color: rgb(50, 109, 238); font-weight: bold;">TECH STACK: </h6>
 											<p style="color: black;">
 												Node, Axios, Moment and FS
 											</p>
@@ -219,12 +221,12 @@
 								<div class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon">
 									<div class="gallery-curve-wrapper">
 										<div class="gallery-header" style="height: auto;">
-											<h5 style="color: midnightblue; font-weight: bold;">GAME OF MEMORIES</h5>
-											<p style="color: black;">
+											<h5 style="color: rgb(50, 109, 238); font-weight: bold;">GAME OF MEMORIES</h5>
+											<p style="color:black;">
 												Game of Memories is a React application memory game that challenges the user to never choose a character twice
 											</p>
 											<hr>
-											<h6 style="color: midnightblue; font-weight: bold;">TECH STACK: </h6>
+											<h6 style="color: rgb(50, 109, 238); font-weight: bold;">TECH STACK: </h6>
 											<p style="color: black;">
 												React, JavaScript
 											</p>
@@ -253,12 +255,12 @@
 								<div class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon">
 									<div class="gallery-curve-wrapper">
 										<div class="gallery-header" style="height: auto;">
-											<h5 style="color: midnightblue; font-weight: bold;">STORE MANAGER</h5>
+											<h5 style="color: rgb(50, 109, 238); font-weight: bold;">STORE MANAGER</h5>
 											<p style="color: black;">
 												Store Manager is a command line interface application that utilizes Node and MySQL to allow users to interact with data using a mock online store.
 											</p>
 											<hr>
-											<h6 style="color: midnightblue; font-weight: bold;">TECH STACK: </h6>
+											<h6 style="color: rgb(50, 109, 238); font-weight: bold;">TECH STACK: </h6>
 											<p style="color: black;">
 												JavaScript, Node, MySQL, Inquirer
 											</p>
@@ -338,7 +340,7 @@
 													<li>do-what-it-says</li>
 												</ol>
 											</p>
-											<h5>TECH STACK:</h5>
+											<h5 style="color: rgb(50, 109, 238);">TECH STACK:</h5>
 												<ul>
 													<li>NodeJS</li>
 													<li>Packages: Axios, Node-Spotify-Api, Moment and FS</li>
@@ -352,12 +354,12 @@
 								<div class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon">
 									<div class="gallery-curve-wrapper">
 										<div class="gallery-header" style="height: auto;">
-											<h5 style="color: midnightblue; font-weight: bold;">FRENEMY FINDER</h5>
+											<h5 style="color: rgb(50, 109, 238); font-weight: bold;">FRENEMY FINDER</h5>
 											<p style="color: black;">
 												Frenemy Finder is a compatibility-based "FriendFinder" application. This full-stack application matches users with their most compatible "Frenemy"
 											</p>
 											<hr />
-											<h6 style="color: midnightblue; font-weight: bold;">TECH STACK: </h6>
+											<h6 style="color: rgb(50, 109, 238); font-weight: bold;">TECH STACK: </h6>
 											<p style="color: black;">
 												Node, Express, JQuery
 											</p>
@@ -382,12 +384,12 @@
 								<div class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon">
 									<div class="gallery-curve-wrapper">
 										<div class="gallery-header" style="height: auto;">
-											<h5 style="color: midnightblue; font-weight: bold;">NYT NEWS SCRAPER</h5>
+											<h5 style="color: rgb(50, 109, 238); font-weight: bold;">NYT NEWS SCRAPER</h5>
 											<p style="color: black;">
 												Application scrapes headlines and summaries from top articles from the NYT website and allows users to view or post comments.
 											</p>
 											<hr />
-											<h6 style="color: midnightblue; font-weight: bold;">TECH STACK: </h6>
+											<h6 style="color: rgb(50, 109, 238); font-weight: bold;">TECH STACK: </h6>
 											<p style="color: black;">
 												Node, MongoDB, Express, Handlebars, Mongoose, Axios
 											</p>
@@ -413,12 +415,12 @@
 								<div class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon">
 									<div class="gallery-curve-wrapper">
 										<div class="gallery-header" style="height: auto;">
-											<h5 style="color: midnightblue; font-weight: bold;">EAT-DA-BURGER</h5>
+											<h5 style="color: rgb(50, 109, 238); font-weight: bold;">EAT-DA-BURGER</h5>
 											<p style="color: black;">
 												Food app that lets users input types of burgers they would like to eat and stores them on a database "wish list" until eaten.
 											</p>
 											<hr />
-											<h6 style="color: midnightblue; font-weight: bold;">TECH STACK: </h6>
+											<h6 style="color: rgb(50, 109, 238); font-weight: bold;">TECH STACK: </h6>
 											<p style="color: black;">
 												Node, Express, MySQL, Handlebars
 											</p>
@@ -460,7 +462,7 @@
 					<!-- =================================== EXPERIENCE =========================================-->
 					<div id="experience" class="scrollspy">
 						<h4 style="text-align: center; color: white; font-weight: bold;">PROFESSIONAL EXPERIENCE</h4>
-						<!-- <hr style="width: 35%;"> -->
+						<hr style="width: 35%;">
 						<!-- <br> --> 
 						<div class="container" style="color: white;">
 							<ul style="list-style-type:square; text-align: center;">
@@ -495,7 +497,7 @@
 					<!-- =================================== EDUCATION =========================================-->
 					<div id="education" class="scrollspy">
 						<h4 style="text-align: center; color: white; font-weight: bold;">EDUCATION</h4>
-						<!-- <hr style="width: 15%;"> -->
+						<hr style="width: 12.5%;">
 						<!-- <br> -->
 						<div class="container" style="color: white;">
 							<ul style="list-style-type:square; text-align: center;">
@@ -523,7 +525,37 @@
 						</div>
 					</div>
 
+					<br>
+					<br>
 
+					<!-- =================================== PHOTOGRAPHY =========================================-->
+					<div id="photography" class="scrollspy">
+						<h4 style="text-align: center; color: white; font-weight: bold;">PHOTOGRAPHY</h4>
+						<hr style="width: 15%;">
+						<!-- <br> -->
+						<div class="container" style="color: white;">
+							<div class="gallery row">
+								<div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter polygon">
+									<div class="gallery-curve-wrapper">
+										<a class="gallery-cover gray">
+											<img class="responsive-img" src="/assets/img/stock/cold-dark-eerie-environment-414144.jpg" alt="placeholder">
+											
+
+										</a>
+										
+
+										<div class="gallery-body">
+											<div class="title-wrapper">
+												<h3>Aquamarine</h3>
+												<p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veniam quis iure esse deleniti et ipsam neque corporis eligendi nesciunt, vel error fuga fugiat eius doloremque at nihil in voluptatem!</p>
+												<p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit porro culpa tenetur blanditiis neque dignissimos cum impedit, asperiores illo quidem voluptas quasi ab deleniti sit, dolor aliquam iusto eius repudiandae!</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 
 				<div class="col s12 l2">
@@ -533,7 +565,7 @@
 						<li><a href="#portfolio" style="color: white;">PORTFOLIO</a></li>
 						<li><a href="#experience" style="color: white;">EXPERIENCE</a></li>
 						<li><a href="#education" style="color: white;">EDUCATION</a></li>
-						<!-- <li><a href="#contact">Contact</a></li> -->
+						<li><a href="#photography" style="color: white;">PHOTOGRAPHY</a></li>
 					</ul>
 				</div>
 			</div>
