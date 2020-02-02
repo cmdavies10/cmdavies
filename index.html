@@ -12,6 +12,10 @@
 			type="text/css"
 		/>
 
+		<!-- Montserrat Font -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap&subset=cyrillic" rel="stylesheet">
+
+
 		<!-- Stylesheet -->
 		<link href="css/gallery-materialize.min.css" rel="stylesheet" />
 
@@ -31,40 +35,43 @@
 
 	<body>
 		<!-- ================================== Navbar and Header ================================= -->
-		<nav id="home" class="nav-extended nav-header" style="background-color:rgb(214, 220, 224);">
+		<nav id="home" class="nav-extended nav-header" style="background-color:rgb(12, 34, 54);">
 			<div class="nav-background" style="opacity: 1;">
-				<img class="active responsive-img" crossorigin="anonymous" src="/assets/img/stock/20170629-DSC06225-1.jpg" alt="waves">
+				<img class="active responsive-img" crossorigin="anonymous" src="/assets/img/stock/beach-black-and-white-dramatic-horizon-331092.jpg" alt="waves">
 			</div>
 
 			<div>
 				<a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 					<div>
 						<ul class="right hide-on-med-and-down">
-							<li><a href="#about-me" style="font-size: 14px;">ABOUT</a></li>
+							<li><a href="#about-me" style="font-size: 12px; color: rgb(255, 255, 255); font-weight: bolder; ">ABOUT</a></li>
 							<li> | </li>
-							<li><a href="#portfolio" style="font-size: 14px;">PORTFOLIO</a></li>
+							<li><a href="#portfolio" style="font-size: 12px;color: rgb(255, 255, 255); font-weight: bolder;">PORTFOLIO</a></li>
 							<li> | </li>
-							<li><a href="#experience" style="font-size: 14px;">EXPERIENCE</a></li>
+							<li><a href="#experience" style="font-size: 12px;color: rgb(255, 255, 255); font-weight: bolder;">EXPERIENCE</a></li>
 							<li> | </li>
-							<li><a href="#education" style="font-size: 14px;">EDUCATION</a></li>
+							<li><a href="#education" style="font-size: 12px;color: rgb(255, 255, 255); font-weight: bolder;" >EDUCATION</a></li>
 							<li> | </li>
-							<li><a href="#photography">PHOTOGRAPHY</a></li>
+							<li><a href="#photography" style="font-size: 12px;color: rgb(255, 255, 255); font-weight: bolder;">PHOTOGRAPHY</a></li>
 						</ul>
-					</div>
-				
+					</div>	
+			</div>
 				<div class="nav-header center">
-					<h1 style="color: rgb(62, 255, 197); font-weight: bolder;">CHRIS DAVIES</h1>
-					<p class="tagline" style="font-size: 24px;color: rgb(62, 255, 197);">FULL-STACK DEVELOPER | NEW YORK CITY</p>
+					<h3 style="color: rgb(255, 255, 255); font-weight: bolder;">CHRIS DAVIES</h3>
+					<h5 style="color: rgb(255, 255, 255); font-weight: bolder;">Software Eningeer & Full-Stack Progmmer | NYC</h5>
+
 					<hr style="width: 30%;">
-						<a href="https://github.com/cmdavies10"> <i class="fab fa-github fa-fw" style="font-size: 48px; color:white;"></i></a>
-						<a href="https://www.linkedin.com/in/daviescm/"> <i class="fab fa-linkedin fa-fw" style="font-size: 48px; color:white;"></i></a>
-						<a href="https://500px.com/cmdavies10"><i class="fab fa-500px fa-fw" style="font-size: 48px; color:white;"></i></a>
+
+					<a href="https://github.com/cmdavies10"> <i class="fab fa-github fa-fw" style="font-size: 36px; color:rgb(255, 255, 255); font-weight: bolder;"></i></a>
+					<a href="https://www.linkedin.com/in/daviescm/"> <i class="fab fa-linkedin fa-fw" style="font-size: 36px; color:rgb(255, 255, 255); font-weight: bolder;"></i></a>
+					<a href="https://500px.com/cmdavies10"><i class="fab fa-500px fa-fw responsive-img" style="font-size: 36px; color:rgb(255, 255, 255); font-weight: bolder;"></i></a>
 				</div>
 			</div>
+
 		</nav>
 
 		<!-- =================================== SIDENAV =========================================-->
-		<ul class="sidenav" id="nav-mobile" style="background-color: rgb(166, 185, 209); color: white;">
+		<ul class="sidenav" id="nav-mobile" style="background-color: rgb(21, 47, 78); color: white;">
 			<li>
 				<a href="#about-me">
 					<h4 style="color: white; text-align: center;">CHRIS DAVIES</h4>
@@ -72,16 +79,19 @@
 				<hr width="85%">
 			</li>
 			<li >
-				<a href="#about-me" style="color: white;"><i class="fas fa-user" style="font-size: 24px; color: white;"></i>About Me</a>
+				<a href="#about-me" style="color: white;"><i class="fas fa-user" style="font-size: 24px; color: white;"></i>ABOUT</a>
 			</li >
 			<li>
-				<a href="#portfolio" style="color: white;"><i class="fas fa-folder-open" style="font-size: 24px; color: white;"></i>Portfolio</a>
+				<a href="#portfolio" style="color: white;"><i class="fas fa-folder-open" style="font-size: 24px; color: white;"></i>PORTFOLIO</a>
 			</li>
 			<li>
-				<a href="#experience" style="color: white;"><i class="fas fa-briefcase" style="font-size: 24px; color: white;"></i>Experience</a>
+				<a href="#experience" style="color: white;"><i class="fas fa-briefcase" style="font-size: 24px; color: white;"></i>EXPERIENCE</a>
 			</li>
 			<li>
-				<a href="#education" style="color: white;"><i class="fas fa-graduation-cap" style="font-size: 24px;color: white;"></i>Education</a>
+				<a href="#education" style="color: white;"><i class="fas fa-graduation-cap" style="font-size: 24px;color: white;"></i>EDUCATION</a>
+			</li>
+			<li>
+				<a href="#photography" style="color: white;"><i class="fas fa-camera" style="font-size: 24px;color: white;"></i>PHOTOGRAPHY</a>
 			</li>
 		</ul>
 
@@ -92,14 +102,11 @@
 					
 					<!-- =================================== ABOUT ME =========================================-->
 					<div id="about-me" class="scrollspy">
-						<h4 style="text-align: center; color: rgb(62, 255, 197); font-weight: bold;">ABOUT</h4>
+						<h4 style="text-align: center; color: rgb(62, 255, 197); font-weight: bolder;">ABOUT</h4>
 						
 						<hr style="width: 15%;">
 
 						<div class="container" style="text-align: justify; color: white;">
-							<!-- <div class="col s4">
-								<img src="https://i.insider.com/568d4264dd0895a83d8b45eb?width=1048&format=jpeg" alt="ron" class="responsive-img">
-							</div> -->
 							<div>
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima et sint quos eligendi, delectus ut nisi, quibusdam libero iusto voluptate repellendus fugit obcaecati dignissimos, reiciendis modi maxime quidem sit eaque.</p>
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima et sint quos eligendi, delectus ut nisi, quibusdam libero iusto voluptate repellendus fugit obcaecati dignissimos, reiciendis modi maxime quidem sit eaque.</p>
@@ -460,31 +467,31 @@
 
 					<!-- =================================== EXPERIENCE =========================================-->
 					<div id="experience" class="scrollspy">
-						<h4 style="text-align: center; color: rgb(62, 255, 197); font-weight: bold;">PROFESSIONAL EXPERIENCE</h4>
+						<h4 style="text-align: center; color: rgb(62, 255, 197); font-weight: bolder;">PROFESSIONAL EXPERIENCE</h4>
 						<hr style="width: 35%;">
 						<!-- <br> --> 
 						<div class="container" style="color: white;">
 							<ul style="list-style-type:square; text-align: center;">
 								
-								<h6 style="font-weight: bold;">MML CAPITAL PARTNERS, LLC</h6>
+								<h6 style="font-weight: bolder;">MML CAPITAL PARTNERS, LLC</h6>
 								<h7>CONSULTANT - PRIVATE EQUITY</h7>
 								
 								<br>
 								<br>
 
-								<h6 style="font-weight: bold;">LAMPERT DEBT ADVISORS, LLC</h6>
+								<h6 style="font-weight: bolder;">LAMPERT DEBT ADVISORS, LLC</h6>
 								<h7>SENIOR ASSOCIATE - LEVERAGED FINANCE</h7>
 								
 								<br>
 								<br>
 
-								<h6 style="font-weight: bold;">TNT CRANE & RIGGING, INC.</h6>
+								<h6 style="font-weight: bolder;">TNT CRANE & RIGGING, INC.</h6>
 								<h7>ASSOCIATE - M&A AND CORPORATE FINANCE</h7>
 								
 								<br>
 								<br>
 
-								<h6 style="font-weight: bold;">DELOITTE & TOUCHE, LLC</h6>
+								<h6 style="font-weight: bolder;">DELOITTE & TOUCHE, LLC</h6>
 								<h7>CONSULTANT - FINANCIAL INSTRUMENT VALUATION</h7>
                             </ul>
 						</div>
@@ -500,25 +507,25 @@
 						<!-- <br> -->
 						<div class="container" style="color: white;">
 							<ul style="list-style-type:square; text-align: center;">
-								<h6 style="font-weight: bold;">COLUMBIA UNIVERSITY SCHOOL OF ENGINEERING</h6>
+								<h6 style="font-weight: bolder;">COLUMBIA UNIVERSITY SCHOOL OF ENGINEERING</h6>
 								<h7>FULL-STACK COMPUTER PROGAMMING | 2019</h7>
 								
 								<br>
 								<br>
 
-								<h6 style="font-weight: bold;">WASHINGTON & LEE UNIVERSITY</h6>
+								<h6 style="font-weight: bolder;">WASHINGTON & LEE UNIVERSITY</h6>
 								<h7>B.A., ECONOMICS | CLASS OF 2010</h7>
 							
 								<br>
 								<br>
 
-								<h6 style="font-weight: bold;">LONDON SCHOOL OF ECONOMICS (LONDON, UK)</h6>
+								<h6 style="font-weight: bolder;">LONDON SCHOOL OF ECONOMICS (LONDON, UK)</h6>
 								<h7>INTERNATIONAL POLICY ANALYSIS | 2008</h7>
 								
 								<br>
 								<br>
 
-								<h6 style="font-weight: bold;">HARROW SCHOOL (LONDON, UK)</h6>
+								<h6 style="font-weight: bolder;">HARROW SCHOOL (LONDON, UK)</h6>
 								<h7>A-LEVELS: ECONOMICS, MATHEMATICS AND ENGLISH LITERATURE</h7>
                             </ul>
 						</div>
@@ -529,34 +536,95 @@
 
 					<!-- =================================== PHOTOGRAPHY =========================================-->
 					<div id="photography" class="scrollspy">
-						<h4 style="text-align: center; color: rgb(62, 255, 197); font-weight: bold;">PHOTOGRAPHY</h4>
+						<h4 style="text-align: center; color: rgb(62, 255, 197); font-weight: bolder;">PHOTOGRAPHY</h4>
 						<hr style="width: 15%;">
 						<br>
-						<div class="container" style="color: white;">
+					    <div class="container">
+							<ul class="tabs z-depth-3">
+								<li class="tab col s6"><a class="active" href="#night" style="background-color: rgb(51, 113, 228); color: rgb(255, 255, 255); font-weight: bolder;">NIGHT & CITYSCAPE</a></li>
+								<li class="tab col s6"><a href="#nature" style="background-color: rgb(51, 113, 228); color: rgb(255, 255, 255); font-weight: bolder;">LANDSCAPE & NATURE</a></li>
+							</ul>
+						</div>
+
+						<br>
+
+						<div id="night" class="container">
 							<div class="gallery row">
-								<div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter polygon">
-									<div class="gallery-curve-wrapper">
+								<div class="gallery-filter polygon">
+									<div class="col l12 ">
 										<a class="gallery-cover gray">
-											<img class="responsive-img" src="/assets/img/stock/cold-dark-eerie-environment-414144.jpg" alt="placeholder">
-											
-
+											<img class="responsive-img" src="/assets/img/stock/Photography-Portolio/cityscapes/Final/20180519-DSC00119-4 - Copy.jpg" alt="placeholder">
 										</a>
-										
-
-										<div class="gallery-body">
-											<div class="title-wrapper">
-												<h3>Aquamarine</h3>
-												<p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veniam quis iure esse deleniti et ipsam neque corporis eligendi nesciunt, vel error fuga fugiat eius doloremque at nihil in voluptatem!</p>
-												<p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit porro culpa tenetur blanditiis neque dignissimos cum impedit, asperiores illo quidem voluptas quasi ab deleniti sit, dolor aliquam iusto eius repudiandae!</p>
-											</div>
-										</div>
+										<br>
+										<a class="gallery-cover gray">
+											<img class="responsive-img" src="/assets/img/stock/Photography-Portolio/cityscapes/Final/brooklyn-geen.jpg" alt="placeholder">
+										</a>
+										<br>
+										<a class="gallery-cover gray">
+											<img class="responsive-img" src="/assets/img/stock/Photography-Portolio/cityscapes/Final/20170629-DSC06225 (1).jpg" alt="placeholder">
+										</a>
+										<br>
+										<a class="gallery-cover gray">
+											<img class="responsive-img" src="/assets/img/stock/Photography-Portolio/cityscapes/Final/binney-tunnel.jpg" alt="placeholder">
+										</a>
+										<br>
+										<a class="gallery-cover gray">
+											<img class="responsive-img" src="/assets/img/stock/Photography-Portolio/cityscapes/Final/riverside.jpg" alt="placeholder">
+										</a>
+										<br>
+										<a class="gallery-cover gray">
+											<img class="responsive-img" src="/assets/img/stock/Photography-Portolio/cityscapes/Final/6e513cf5dd9affbf-photo.JPG" alt="placeholder">
+										</a>
 									</div>
 								</div>
 							</div>
-						</div>
+						</div>		
+
+						<div id="nature" class="container">
+							<div class="gallery row">
+								<div class="gallery-filter polygon">
+									<div class="col l12">
+										<a class="gallery-cover gray">
+											<img class="responsive-img" src="/assets/img/stock/Photography-Portolio/landscapes/Long Dock LE Dusk 4.jpg" alt="placeholder">
+										</a>
+										<br>
+										<a class="gallery-cover gray">
+											<img class="responsive-img" src="/assets/img/stock/Photography-Portolio/landscapes/e3d700_041ef1996bd34e1d8fdb27939e252cd4.jpg" alt="placeholder">
+										</a>
+										<br>
+										<a class="gallery-cover gray">
+											<img class="responsive-img" src="/assets/img/stock/Photography-Portolio/landscapes/20160916-DSC03260-2.jpg" alt="placeholder">
+										</a>
+										<br>
+										<a class="gallery-cover gray">
+											<img class="responsive-img" src="/assets/img/stock/Photography-Portolio/landscapes/quogue.jpg" alt="placeholder">
+										</a>
+										<br>
+										<a class="gallery-cover gray">
+											<img class="responsive-img" src="/assets/img/stock/Photography-Portolio/landscapes/darien.jpg" alt="placeholder">
+										</a>
+										<br>
+										<a class="gallery-cover gray">
+											<img class="responsive-img" src="/assets/img/stock/Photography-Portolio/landscapes/tods-silhouette.jpg" alt="placeholder">
+										</a>
+										<br>
+										<a class="gallery-cover gray">
+											<img class="responsive-img" src="/assets/img/stock/Photography-Portolio/landscapes/WB Waves B&W 1.jpg" alt="placeholder">
+										</a>
+										<br>
+										<a class="gallery-cover gray">
+											<img class="responsive-img" src="/assets/img/stock/Photography-Portolio/landscapes/20180415-DSC02715-3 - Copy.jpg" alt="placeholder">
+										</a>
+							        </div>
+
+									<div id="night" class="col s12"></div>
+									<div id="nature" class="col s12"></div>
+								</div>
+						    </div>
+						</div>	
 					</div>
 				</div>
-
+			
 				<div class="col s12 l2">
 					<ul class="section table-of-contents hide-on-med-and-down">
 						<li><a href="#home" style="color: white;">HOME</a></li>
@@ -567,6 +635,7 @@
 						<li><a href="#photography" style="color: white;">PHOTOGRAPHY</a></li>
 					</ul>
 				</div>
+
 			</div>
 		</div>
 
