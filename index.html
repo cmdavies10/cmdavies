@@ -27,8 +27,9 @@
 
 </head>
 <body>
+
 	<!-- ================================== Navbar and Header ================================= -->
-	<nav id="home" class="nav-extended nav-full-header" style="background-color:rgb(12, 34, 54); color: rgb(255, 255, 255);">
+	<nav id="home" class="nav-extended nav-full-header" style="background-color:rgb(9, 56, 109); color: rgb(255, 255, 255);">
 		<div class="nav-background" style="opacity: 1;">
 			<img class="active" crossorigin="anonymous" src="https://raw.githubusercontent.com/cmdavies10/portfolio/master/assets/stock/Photography-Portolio/cityscapes/Final/brooklyn-geen.jpg" alt="brooklyn">
 		</div>
@@ -47,14 +48,16 @@
 		<div class="nav-header center">
 			<h2 style="color: rgb(255, 255, 255); font-weight: bolder;">CHRIS DAVIES</h2>
 			<h5 style="color: rgb(255, 255, 255);">FULL STACK DEVELOPER | NYC</h5>
-			<a href="https://github.com/cmdavies10"> <i class="fab fa-github fa-fw" style="font-size: 36px; color:rgb(255, 255, 255); font-weight: bolder;"></i></a>
-			<a href="https://www.linkedin.com/in/daviescm/"> <i class="fab fa-linkedin fa-fw" style="font-size: 36px; color:rgb(255, 255, 255); font-weight: bolder;"></i></a>
-			<a href="https://500px.com/cmdavies10"><i class="fab fa-500px fa-fw responsive-img" style="font-size: 36px; color:rgb(255, 255, 255); font-weight: bolder;"></i></a>
+			<div class="row">
+				<a href="https://github.com/cmdavies10"> <i class="fab fa-github fa-fw" style="font-size: 36px; color:rgb(255, 255, 255); font-weight: bolder;"></i></a>
+				<a href="https://www.linkedin.com/in/daviescm/"> <i class="fab fa-linkedin fa-fw" style="font-size: 36px; color:rgb(255, 255, 255); font-weight: bolder;"></i></a>
+				<a href="https://500px.com/cmdavies10"><i class="fab fa-500px fa-fw responsive-img" style="font-size: 36px; color:rgb(255, 255, 255); font-weight: bolder;"></i></a>
+			</div>
 		</div>
 	</nav>
 		
 	<!-- =================================== SIDENAV =========================================-->
-	<ul class="sidenav" id="nav-mobile" style="background-color: rgb(108, 167, 223); color: white;">
+	<ul class="sidenav" id="nav-mobile" style="background-color: rgb(9, 56, 109); color: white;">
 		<li>
 			<a href="#home">
 				<h4 style="color: white; text-align: center; font-weight: bold;">CHRIS DAVIES</h4>
@@ -79,21 +82,23 @@
 	</ul>
 
 	<!-- =================================== MAIN =========================================-->
-	<div id="main" class="section gray" style="background-color: rgb(12, 34, 54);">
-		<div class="container">
+	<div id="main" class="section gray" style="background-color: rgb(9, 56, 109);">
+		<div>
 			<div class="row">
 				<div class="col s12 l10">
 					
 					<!-- =================================== ABOUT ME =========================================-->
-					<div id="about-me" class="scrollspy">
-						<h4 style="text-align: center; color: rgb(62, 255, 197); font-weight: bold;">ABOUT</h4>
-						
-						<!-- <hr style="width: 15%;"> -->
+					<div class="container">
+						<div id="about-me" class="scrollspy">
+							<h4 style="text-align: center; color: rgb(62, 255, 197); font-weight: bold;">ABOUT</h4>
+							
+							<hr style="width: 15%;">
 
-						<div style="text-align: justify; color: white;">
-							<div>
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima et sint quos eligendi, delectus ut nisi, quibusdam libero iusto voluptate repellendus fugit obcaecati dignissimos, reiciendis modi maxime quidem sit eaque.</p>
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima et sint quos eligendi, delectus ut nisi, quibusdam libero iusto voluptate repellendus fugit obcaecati dignissimos, reiciendis modi maxime quidem sit eaque.</p>
+							<div style="text-align: justify; color: white;">
+								<div>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima et sint quos eligendi, delectus ut nisi, quibusdam libero iusto voluptate repellendus fugit obcaecati dignissimos, reiciendis modi maxime quidem sit eaque.</p>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima et sint quos eligendi, delectus ut nisi, quibusdam libero iusto voluptate repellendus fugit obcaecati dignissimos, reiciendis modi maxime quidem sit eaque.</p>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -104,26 +109,21 @@
 					<div id="portfolio" class="scrollspy">
 						<h4 style="text-align: center; color: rgb(62, 255, 197); font-weight: bold;">PORTFOLIO</h4>
 
-						<!-- <hr style="width: 15%;"> -->
+						<hr style="width: 15%;">
 						<br>
 						
-						<div>
+						<div class="container">
 							<div class="gallery row">
 
 								<!-- ======================= LIRI BOT =================== -->
 								<div class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon">
 									<div class="gallery-curve-wrapper" style="color:white;">
-
-										<div class="gallery-header" style="background-color: rgb(255, 255, 255);">
-											<h5 style="color: #444;text-align: left;">L.I.R.I. NODE BOT</h5>
-											<p style="color: #444; font-size: 14px;">
-												L.I.R.I. (Language Interpretation & Recognition Interface) is a command line interface node application that returns data derived from various APIs given specific user input.
-											</p>
-											<!-- <hr> -->
-											<h6 style="color: #444;">TECHNOLOGY: </h6>
-											<p style="color: #444;">
-												Node, Axios, Moment and FS
-											</p>
+										<div class="gallery-header" style="background-color:white; color: #444; height: 250px; width: 350px;">
+											<h5 style="font-weight: bold; text-align: left;">L.I.R.I. NODE BOT</h5>
+											<p>L.I.R.I. (Language Interpretation & Recognition Interface) is a command line interface node application that returns data derived from various APIs given specific user input.</p>
+										
+											<h6 style="font-weight: bold;">TECHNOLOGY: </h6>
+											<p>Node, Axios, Moment and FS</p>
 										</div>
 
 										<div class="gallery-body" style="font-size: 12px; color: black;">
@@ -142,7 +142,7 @@
 													<li>Event Date</li>
 													<li>Screenshot:</li>
 												</ol>
-												<img src="https://raw.githubusercontent.com/cmdavies10/portfolio/master/assets/concert-this-edit.png" alt="concert-this"/>
+												<img class="responsive-img" src="https://raw.githubusercontent.com/cmdavies10/portfolio/master/assets/concert-this-edit.png" alt="concert-this"/>
 											</p>	
 											<p style="font-size: 16px;">
 												2. <strong>spotify-this-song</strong> utilizes the node-spotify-api package to retrieve the following song information from the Spotify API:
@@ -154,7 +154,7 @@
 													<li>Album Name</li>
 													<li>Screenshot:</li>
 												</ol>
-												<img src="https://raw.githubusercontent.com/cmdavies10/portfolio/master/assets/spotify-this-song_edit.png" alt="spotify-this"/>
+												<img class="responsive-img" src="https://raw.githubusercontent.com/cmdavies10/portfolio/master/assets/spotify-this-song_edit.png" alt="spotify-this"/>
 											</p>
 											<p style="font-size: 16px;">
 												3. <strong>movie-this</strong> uses the OMDB API to output the following information on a given movie to the terminal:
@@ -172,15 +172,15 @@
 													<li>Screenshot:</li>
 												</ol>
 											</p>
-											<img src="https://raw.githubusercontent.com/cmdavies10/portfolio/master/assets/movie-this_edit.png" alt="movie-this"/>
+											<img class="responsive-img" src="https://raw.githubusercontent.com/cmdavies10/portfolio/master/assets/movie-this_edit.png" alt="movie-this"/>
 											<p style="font-size: 16px;">
 												4. <strong>do-what-it-says</strong> reads text from inside the random.txt file and calls one of LIRI'scommands
 											</p>
-											<img src="/assets/do-what-it-says_edit.png" alt="do-what-it-says"/>		<p class="description">
+											<img class="responsive-img" src="https://raw.githubusercontent.com/cmdavies10/portfolio/master/assets/do-what-it-says_edit.png" alt="do-what-it-says"/>		<p class="description">
 											<p style="font-size: 16px;">
 												Additionally, LIRI will create a log.txt file and append the results from any valid command. Here is an example output from the log:
 											</p>
-											<img src="https://raw.githubusercontent.com/cmdavies10/portfolio/master/assets/log-txt_edit.png" alt="log"/>
+											<img class="responsive-img" src="https://raw.githubusercontent.com/cmdavies10/portfolio/master/assets/log-txt_edit.png" alt="log"/>
 											<h5 style="color: #444; font-weight: bolder;">INSTRUCTIONS</h5>
 											<p style="font-size: 16px;">
 												In order to run LIRI, please ensure that Node is installed and create a local .env file that includes the code below, replacing the values with your Spotify API keys: API details are stored within a local .env
@@ -199,11 +199,13 @@
 												</ol>
 											</p>
 											<h5 style="color:#444; font-weight: bolder;">TECHNOLOGY:</h5>
-												<ul>
+											<p>
+												<ul style="list-style-type: square;">
 													<li>NodeJS, JavaScript, Git</li>
 													<li>NPM Packages: Axios, Node-Spotify-Api, Moment, FS and DotEnv</li>
 													<li>APIs: Bands in Town, Spotify and OMDB</li>
 												</ul>
+											</p>
 										</div>
 									</div>
 								</div>
@@ -211,16 +213,11 @@
 								<!-- GAME OF MEMORIES -->
 								<div class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon">
 									<div class="gallery-curve-wrapper">
-										<div class="gallery-header" style="background-color:white;">
-											<h5 style="color: #444; text-align: left;">GAME OF MEMORIES</h5>
-											<p style="color:#444;">
-												Game of Memories is a React application memory game that challenges the user to never choose a character twice
-											</p>
-											<!-- <hr> -->
-											<h6 style="color: #444; font-weight: bolder;">TECHNOLOGY: </h6>
-											<p style="color: #444;">
-												React, JavaScript
-											</p>
+										<div class="gallery-header" style="background-color:white; color: #444; height: 250px; width: 350px;">
+											<h5 style="font-weight: bold; text-align: left;">GAME OF MEMORIES</h5>
+											<p>Game of Memories is a React application memory game that challenges the user to never choose a character twice</p>
+											<h6 style="font-weight: bold;">TECHNOLOGY: </h6>
+											<p>React, JavaScript</p>
 										</div>
 
 										<div class="gallery-body" style="font-size: 12px;">
@@ -244,15 +241,13 @@
 
 								<!-- STOREFRONT MANAGER -->
 								<div class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon">
-									<div class="gallery-curve-wrapper">
-										<div class="gallery-header" style="height: 250px; background-color: rgb(79, 119, 206);">
-											<h5 style="color: rgb(62, 255, 197); font-weight: bolder; text-align: center;">STORE MANAGER</h5>
-											<p style="color: rgb(255, 255, 255);">
-												Store Manager is a command line interface application that utilizes Node and MySQL to allow users to interact with data using a mock online store.
-											</p>
+									<div class="gallery-curve-wrapper" style="color: white">
+										<div class="gallery-header" style="background-color:white; height: 250px; width: 350px;">
+											<h5 style="font-weight:bold; text-align: left;">STORE MANAGER</h5>
+											<p >Store Manager is a command line interface application that utilizes Node and MySQL to allow users to interact with data using a mock online store.</p>
 											<!-- <hr> -->
-											<h6 style="color: rgb(62, 255, 197); font-weight: bolder;">TECHNOLOGY: </h6>
-											<p style="color: rgb(255, 255, 255);">
+											<h6 style="font-weight:bold;" >TECHNOLOGY: </h6>
+											<p>
 												JavaScript, Node, MySQL, Inquirer
 											</p>
 										</div>
@@ -344,14 +339,14 @@
 								<!-- FRENEMY FINDER -->
 								<div class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon">
 									<div class="gallery-curve-wrapper">
-										<div class="gallery-header" style="height: 250px; background-color: rgb(79, 119, 206);">
-											<h5 style="color: rgb(62, 255, 197); font-weight: bolder; text-align: center;">FRENEMY FINDER</h5>
-											<p style="color: rgb(255, 255, 255);">
+										<div class="gallery-header" style="color: #444; background-color: white; height: 250px; width: 350px;">
+											<h5 style="font-weight: bold; text-align: left;">FRENEMY FINDER</h5>
+											<p>
 												Frenemy Finder is a compatibility-based "FriendFinder" application. This full-stack application matches users with their most compatible "Frenemy"
 											</p>
 											<!-- <hr /> -->
-											<h6 style="color:rgb(62, 255, 197); font-weight: bolder;">TECHNOLOGY: </h6>
-											<p style="color: rgb(255, 255, 255);">
+											<h6 style="font-weight: bold;">TECHNOLOGY: </h6>
+											<p>
 												Node, Express, JQuery
 											</p>
 										</div>
@@ -374,14 +369,14 @@
 								<!-- MONGO SCRAPER -->
 								<div class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon">
 									<div class="gallery-curve-wrapper">
-										<div class="gallery-header" style="height: 250px; background-color: rgb(79, 119, 206);">
-											<h5 style="color: rgb(62, 255, 197); font-weight: bolder; text-align: center;">NYT NEWS SCRAPER</h5>
-											<p style="color: rgb(255, 255, 255);">
+										<div class="gallery-header" style="color: #444; background-color: white; height: 250px; width: 350px;">
+											<h5 style="font-weight: bold; text-align: left;">NYT NEWS SCRAPER</h5>
+											<p >
 												Application scrapes headlines and summaries from top articles from the NYT website and allows users to view or post comments.
 											</p>
-											<!-- <hr /> -->
-											<h6 style="color: rgb(62, 255, 197); font-weight: bolder;">TECHNOLOGY: </h6>
-											<p style="color: rgb(255, 255, 255);">
+										
+											<h6 style="font-weight: bold;">TECHNOLOGY: </h6>
+											<p">
 												Node, MongoDB, Express, Handlebars, Mongoose, Axios
 											</p>
 										</div>
@@ -405,14 +400,14 @@
 								<!-- EAT-DA-BURGER -->
 								<div class="col m6 s12 gallery-item gallery-horizontal gallery-expand gallery-filter polygon">
 									<div class="gallery-curve-wrapper">
-										<div class="gallery-header" style="height: 250px; background-color: rgb(79, 119, 206);">
-											<h5 style="color: rgb(62, 255, 197); font-weight: bolder; text-align: center;">EAT-DA-BURGER</h5>
-											<p style="color: rgb(255, 255, 255);">
+										<div class="gallery-header" style="color: #444; background-color: white; height: 250px; width: 350px;">
+											<h5 style="font-weight: bold; text-align:left;">EAT-DA-BURGER</h5>
+											<p >
 												Food app that lets users input types of burgers they would like to eat and stores them on a database "wish list" until eaten.
 											</p>
 											<!-- <hr /> -->
-											<h6 style="color: rgb(62, 255, 197); font-weight: bolder;">TECHNOLOGY: </h6>
-											<p style="color: rgb(255, 255, 255);">
+											<h6 style="font-weight: bold;">TECHNOLOGY: </h6>
+											<p>
 												Node, Express, MySQL, Handlebars
 											</p>
 										</div>
@@ -451,16 +446,14 @@
 
 					<!-- =================================== EXPERIENCE =========================================-->
 					<div id="experience" class="scrollspy">
-						<h3 style="text-align: center; color: rgb(62, 255, 197); font-weight: bolder;">PROFESSIONAL EXPERIENCE</h3>
-						<!-- <hr style="width: 30%;"> -->
-						<!-- <br> --> 
+						<h4 style="text-align: center; color: rgb(62, 255, 197); font-weight: bolder;">EXPERIENCE</h4>
+						<hr style="width: 12.5%;">
 						<div class="container" style="color: white;">
 							<ul style="list-style-type:square; text-align: center;">
 								<h5 style="font-weight: bold;">MML CAPITAL PARTNERS, LLC</h5>
 								<h6>CONSULTANT - PRIVATE EQUITY</h6>
 								
 								<br>
-								<!-- <br> -->
 
 								<h5 style="font-weight: bold;">LAMPERT DEBT ADVISORS, LLC</h5>
 								<h6>SENIOR ASSOCIATE - LEVERAGED FINANCE</h6>
@@ -486,12 +479,12 @@
 					<!-- =================================== EDUCATION =========================================-->
 					<div id="education" class="scrollspy">
 						<h4 style="text-align: center; color: rgb(62, 255, 197); font-weight: bold;">EDUCATION</h4>
-						<!-- <hr style="width: 12.5%;"> -->
+						<hr style="width: 12.5%;">
 						<!-- <br> -->
-						<div class="container" style="color: white;">
+						<div style="color: white;">
 							<ul style="list-style-type:square; text-align: center;">
 								<h5 style="font-weight: bold;">COLUMBIA UNIVERSITY SCHOOL OF ENGINEERING</h5>
-								<h6>FULL-STACK COMPUTER PROGAMMING | 2019</h6>
+								<h6>FULL-STACK BOOT CAMP | 2019</h6>
 								
 								<br>
 								<!-- <br> -->
@@ -520,7 +513,7 @@
 					<!-- =================================== PHOTOGRAPHY =========================================-->
 					<div id="photography" class="scrollspy">
 						<h4 style="text-align: center; color: rgb(62, 255, 197); font-weight: bolder;">PHOTOGRAPHY</h4>
-						<!-- <hr style="width: 15%;"> -->
+						<hr style="width: 15%;">
 						<br>
 						<!-- <div class="container">
 							<ul class="tabs z-depth-3">
@@ -577,12 +570,12 @@
 		
 				<div class="col s12 l2">
 					<ul class="section table-of-contents hide-on-med-and-down">
-						<li><a href="#home" style="color: rgb(255, 255, 255);">HOME</a></li>
-						<li><a href="#about-me" style="color: rgb(255, 255, 255);">ABOUT</a></li>
-						<li><a href="#portfolio" style="color: rgb(255, 255, 255);">PORTFOLIO</a></li>
-						<li><a href="#experience" style="color: rgb(255, 255, 255);">EXPERIENCE</a></li>
-						<li><a href="#education" style="color: rgb(255, 255, 255);">EDUCATION</a></li>
-						<li><a href="#photography" style="color: rgb(255, 255, 255);">PHOTOGRAPHY</a></li>
+						<li><a href="#home" style="color: rgb(62, 255, 197);">HOME</a></li>
+						<li><a href="#about-me" style="color: rgb(62, 255, 197);">ABOUT</a></li>
+						<li><a href="#portfolio" style="color: rgb(62, 255, 197);">PORTFOLIO</a></li>
+						<li><a href="#experience" style="color: rgb(62, 255, 197);">EXPERIENCE</a></li>
+						<li><a href="#education" style="color: rgb(62, 255, 197);">EDUCATION</a></li>
+						<li><a href="#photography" style="color: rgb(62, 255, 197);">PHOTOGRAPHY</a></li>
 					</ul>
 				</div>
 			</div>
