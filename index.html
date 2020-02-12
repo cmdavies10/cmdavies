@@ -28,11 +28,11 @@
 </head>
 <body>
 	<!-- ================================== Navbar and Header ================================= -->
-	<nav id="home" class="nav-extended nav-header nav-background" style="background-image: url('https://raw.githubusercontent.com/cmdavies10/portfolio/master/assets/stock/20170628-DSC00254-8.jpg');">
+	<nav id="home" class="nav-extended nav-full-header nav-background" style="background-image: url('https://raw.githubusercontent.com/cmdavies10/portfolio/master/assets/stock/20170628-DSC00254-11.jpg'); background-color: rgb(255, 255, 255); background-repeat: no-repeat; background-size: 100% 100%;">
 		<!-- <div class="nav-background" style="opacity: 1;">
 			<img class="active" crossorigin="anonymous" src="https://raw.githubusercontent.com/cmdavies10/portfolio/master/assets/stock/Photography-Portolio/cityscapes/Final/brooklyn-geen.jpg" alt="brooklyn">
 		</div> -->
-		<div style="font-size: 14px; color: rgb(255, 255, 255);">
+		<div style="font-size: 14px; color: rgb(255, 255, 255); padding: 20px; padding-right: 30px;">
 			<a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 			<ul class="right hide-on-med-and-down">
 				<li><a href="#about-me">ABOUT</a></li>
@@ -43,7 +43,7 @@
 			</ul>
 		</div>	
 		
-		<div class="nav-header center" style="color: rgb(255, 255, 255);">
+		<div class="nav-header center" style="color: rgb(255, 255, 255); padding-top:150px; line-height: 100px;">
 			<h2 style="font-weight: bolder;">CHRIS DAVIES</h2>
 			<h5>FULL-STACK DEVELOPER | NYC</h5>
 			<div class="row">
@@ -111,9 +111,121 @@
 						
 						<div class="container">
 							<div class="gallery row">
-
-								<!-- ======================= LIRI BOT =================== -->
 								<!-- remove gallery-expand from top div class to keep static -->
+
+								<!-- MONGO SCRAPER -->
+								<div class="col m6 s12 gallery-item gallery-horizontal gallery-filter polygon">
+									<div class="gallery-curve-wrapper">
+										<div class="gallery-header" style="background-color:rgb(245, 245, 245); color: rgb(26, 26, 26); border-radius: 4px; box-shadow: 0 1px 4px rgba(0,0,0,0.1); height: 300px;">
+											<h6 style="font-weight: bold; text-align: center;">NYT NEWS SCRAPER</h6>
+											<p>App scrapes headlines and summaries from NYT articles and allows users to view and post comments.
+											</p>
+										
+											<p style="font-weight: bold;">TECHNOLOGY: </p>
+											<p>Node.js, MongoDB, Express, Handlebars, Mongoose, Axios</p>
+
+											<a href="https://github.com/cmdavies10/news-scraper"> <i class="fab fa-github fa-fw" style="font-size: 24px; color:rgb(0, 61, 192); font-weight: bolder;"></i></a>
+								
+											<a href="https://guarded-tundra-18857.herokuapp.com/"> <i class="fas fa-external-link-alt" style="font-size: 24px; color:rgb(0, 61, 192); font-weight: bolder;"></i></a>
+										</div>
+
+										<div class="gallery-body" style="font-size: 12px;">
+											<div class="title-wrapper">
+												<h4>NYT NEWS SCRAPER</h4>
+											</div>
+											<h5>OVERVIEW</h5>
+											<p class="description">
+												Application scrapes headlines and summaries from top articles from the New York Times - World Edition website and allows users to view or post comments.
+											</p>
+											<h5>TECH STACK:</h5>
+											<p class="description">
+												Node, MongoDB, Express, Express-Handlebars, Mongoose, Axios, Cheerios, Morgan
+											</p>
+										</div>
+									</div>
+								</div>
+
+								<!-- EAT-DA-BURGER -->
+								<div class="col m6 s12 gallery-item gallery-horizontal gallery-filter polygon">
+									<div class="gallery-curve-wrapper">
+										<div class="gallery-header" style="background-color:rgb(245, 245, 245); color: rgb(26, 26, 26); border-radius: 4px; box-shadow: 0 1px 4px rgba(0,0,0,0.1); height: 300px;">
+											<h6 style="font-weight: bold; text-align:center;">EAT-DA-BURGER</h6>
+											<p >
+												Food app that lets users input types of burgers they would like to eat and stores them on a database "wish list" until eaten.
+											</p>
+											
+											<p style="font-weight: bold;">TECHNOLOGY: </p>
+											<p>
+												Node, Express, MySQL, Handlebars
+											</p>
+
+											<a href="https://github.com/cmdavies10/eat-da-burger"> <i class="fab fa-github fa-fw" style="font-size: 24px; color:rgb(0, 61, 192); font-weight: bolder;"></i></a>
+								
+											<a href="https://eat-da-burger-cmd.herokuapp.com/"> <i class="fas fa-external-link-alt" style="font-size: 24px; color:rgb(0, 61, 192); font-weight: bolder;"></i></a>
+										</div>
+
+										<div class="gallery-body" style="font-size: 12px;">
+											<div class="title-wrapper">
+												<h4>Eat-Da-Burger</h4>
+											</div>
+											<img src="/assets/eatdaburger.png" alt="burger-logo"/>
+											<h5>OVERVIEW</h5>
+											<p class="description">
+												Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
+											</p>
+											<p class="description">
+												Whenever a user submits a burger's name, your app will display the burger on the "Wish List" -- waiting to be devoured. 
+											</p>
+											<p class="description">
+												Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the devoured section of the page.
+											</p>
+											<p class="description">
+												The app will store every burger in a database, whether devoured or not.
+											</p>
+											<h5>TECH STACK:</h5>
+											<p class="description">
+												NodeJS, Express, MySQL, Handlebars
+											</p>
+										</div>
+									</div>
+								</div>
+
+								<!-- FRENEMY FINDER -->
+								<div class="col m6 s12 gallery-item gallery-horizontal gallery-filter polygon">
+									<div class="gallery-curve-wrapper">
+										<div class="gallery-header" style="background-color:rgb(245, 245, 245); color: rgb(26, 26, 26); border-radius: 4px; box-shadow: 0 1px 4px rgba(0,0,0,0.1); height: 300px;">
+											<h6 style="font-weight: bold; text-align: center;">FRENEMY FINDER</h6>
+											<p>
+												Frenemy Finder is a compatibility-based "FriendFinder" application. This full-stack application matches users with their most compatible "Frenemy"
+											</p>
+											
+											<p style="font-weight: bold;">TECHNOLOGY: </p>
+											<p>
+												Node, Express, JQuery
+											</p>
+
+											<a href="https://github.com/cmdavies10/frenemy-finder"> <i class="fab fa-github fa-fw" style="font-size: 24px; color:rgb(0, 61, 192); font-weight: bolder;"></i></a>
+								
+											<a href="https://damp-sierra-99583.herokuapp.com/"> <i class="fas fa-external-link-alt" style="font-size: 24px; color:rgb(0, 61, 192); font-weight: bolder;"></i></a>
+
+										</div>
+
+										<div class="gallery-body" style="font-size: 12px;">
+											<div class="title-wrapper">
+												<h4>FRENEMY FINDER</h4>
+											</div>
+											<p class="description">
+												Frenemy Finder is a compatibility-based "FriendFinder" application -- basically a dating app. This full-stack site will take in results from users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
+											</p>
+											<h5>TECH STACK:</h5>
+											<p class="description">
+												Node, Express, JQuery
+											</p>
+										</div>
+									</div>
+								</div>
+
+								<!-- LIRI BOT -->
 								<div class="col m6 s12 gallery-item gallery-horizontal gallery-filter polygon">
 									<div class="gallery-curve-wrapper" style="color:white;">
 										<div class="gallery-header" style="background-color:rgb(245, 245, 245); color: rgb(26, 26, 26); border-radius: 4px; box-shadow: 0 1px 4px rgba(0,0,0,0.1); height:300px;">
@@ -208,39 +320,6 @@
 													<li>NPM Packages: Axios, Node-Spotify-Api, Moment, FS and DotEnv</li>
 													<li>APIs: Bands in Town, Spotify and OMDB</li>
 												</ul>
-											</p>
-										</div>
-									</div>
-								</div>
-
-								<!-- GAME OF MEMORIES -->
-								<div class="col m6 s12 gallery-item gallery-horizontal gallery-filter polygon">
-									<div class="gallery-curve-wrapper">
-										<div class="gallery-header" style="background-color:rgb(245, 245, 245); color: rgb(26, 26, 26); border-radius: 4px; box-shadow: 0 1px 4px rgba(0,0,0,0.1); height: 300px;">
-											<h6 style="font-weight: bold; text-align: center;">GAME OF MEMORIES</h6>
-											<p>Game of Memories is a 'GoT'-inspired React game that challenges users memories by shuffling characters randomly after each turn.</p>
-											<p style="font-weight: bold;">TECHNOLOGY: </p>
-											<p>React, JavaScript</p>
-											
-											<a href="https://github.com/cmdavies10/game-of-memories"> <i class="fab fa-github fa-fw" style="font-size: 24px; color:rgb(0, 61, 192); font-weight: bolder;"></i></a>
-								
-											<a href="https://lit-earth-86129.herokuapp.com/"> <i class="fas fa-external-link-alt" style="font-size: 24px; color:rgb(0, 61, 192); font-weight: bolder;"></i></a>
-										</div>
-
-										<div class="gallery-body" style="font-size: 12px;">
-											<div class="title-wrapper">
-												<h4>GAME OF MEMORIES</h4>
-											</div>
-											<h5>OVERVIEW</h5>
-											<p class="description">
-												Game of Memories is a React application game that challenges the user to choose a character from Game of Thrones. After the first click, each subsequent click shuffles the images in a random order.
-											</p>
-											<p class="description">
-												Points are scored for each click of a character that has not yet been chosen, however the game is lost and the score count reset to zero if a duplicate choice has been made.
-											</p>
-											<h6>TECHNOLOGY:</h6>
-											<p class="description">
-												NodeJS, Express, MySQL, Handlebars
 											</p>
 										</div>
 									</div>
@@ -344,111 +423,32 @@
 									</div>
 								</div>
 
-								<!-- FRENEMY FINDER -->
+								<!-- GAME OF MEMORIES -->
 								<div class="col m6 s12 gallery-item gallery-horizontal gallery-filter polygon">
 									<div class="gallery-curve-wrapper">
 										<div class="gallery-header" style="background-color:rgb(245, 245, 245); color: rgb(26, 26, 26); border-radius: 4px; box-shadow: 0 1px 4px rgba(0,0,0,0.1); height: 300px;">
-											<h6 style="font-weight: bold; text-align: center;">FRENEMY FINDER</h6>
-											<p>
-												Frenemy Finder is a compatibility-based "FriendFinder" application. This full-stack application matches users with their most compatible "Frenemy"
-											</p>
+											<h6 style="font-weight: bold; text-align: center;">GAME OF MEMORIES</h6>
+											<p>Game of Memories is a 'GoT'-inspired React game that challenges users memories by shuffling characters randomly after each turn.</p>
+											<p style="font-weight: bold;">TECHNOLOGY: </p>
+											<p>React, JavaScript</p>
 											
-											<p style="font-weight: bold;">TECHNOLOGY: </p>
-											<p>
-												Node, Express, JQuery
-											</p>
-
-											<a href="https://github.com/cmdavies10/frenemy-finder"> <i class="fab fa-github fa-fw" style="font-size: 24px; color:rgb(0, 61, 192); font-weight: bolder;"></i></a>
+											<a href="https://github.com/cmdavies10/game-of-memories"> <i class="fab fa-github fa-fw" style="font-size: 24px; color:rgb(0, 61, 192); font-weight: bolder;"></i></a>
 								
-											<a href="https://damp-sierra-99583.herokuapp.com/"> <i class="fas fa-external-link-alt" style="font-size: 24px; color:rgb(0, 61, 192); font-weight: bolder;"></i></a>
-
+											<a href="https://lit-earth-86129.herokuapp.com/"> <i class="fas fa-external-link-alt" style="font-size: 24px; color:rgb(0, 61, 192); font-weight: bolder;"></i></a>
 										</div>
 
 										<div class="gallery-body" style="font-size: 12px;">
 											<div class="title-wrapper">
-												<h4>FRENEMY FINDER</h4>
-											</div>
-											<p class="description">
-												Frenemy Finder is a compatibility-based "FriendFinder" application -- basically a dating app. This full-stack site will take in results from users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
-											</p>
-											<h5>TECH STACK:</h5>
-											<p class="description">
-												Node, Express, JQuery
-											</p>
-										</div>
-									</div>
-								</div>
-
-								<!-- MONGO SCRAPER -->
-								<div class="col m6 s12 gallery-item gallery-horizontal gallery-filter polygon">
-									<div class="gallery-curve-wrapper">
-										<div class="gallery-header" style="background-color:rgb(245, 245, 245); color: rgb(26, 26, 26); border-radius: 4px; box-shadow: 0 1px 4px rgba(0,0,0,0.1); height: 300px;">
-											<h6 style="font-weight: bold; text-align: center;">NYT NEWS SCRAPER</h6>
-											<p>App scrapes headlines and summaries from NYT articles and allows users to view and post comments.
-											</p>
-										
-											<p style="font-weight: bold;">TECHNOLOGY: </p>
-											<p>Node.js, MongoDB, Express, Handlebars, Mongoose, Axios</p>
-
-											<a href="https://github.com/cmdavies10/news-scraper"> <i class="fab fa-github fa-fw" style="font-size: 24px; color:rgb(0, 61, 192); font-weight: bolder;"></i></a>
-								
-											<a href="https://guarded-tundra-18857.herokuapp.com/"> <i class="fas fa-external-link-alt" style="font-size: 24px; color:rgb(0, 61, 192); font-weight: bolder;"></i></a>
-										</div>
-
-										<div class="gallery-body" style="font-size: 12px;">
-											<div class="title-wrapper">
-												<h4>NYT NEWS SCRAPER</h4>
+												<h4>GAME OF MEMORIES</h4>
 											</div>
 											<h5>OVERVIEW</h5>
 											<p class="description">
-												Application scrapes headlines and summaries from top articles from the New York Times - World Edition website and allows users to view or post comments.
-											</p>
-											<h5>TECH STACK:</h5>
-											<p class="description">
-												Node, MongoDB, Express, Express-Handlebars, Mongoose, Axios, Cheerios, Morgan
-											</p>
-										</div>
-									</div>
-								</div>
-
-								<!-- EAT-DA-BURGER -->
-								<div class="col m6 s12 gallery-item gallery-horizontal gallery-filter polygon">
-									<div class="gallery-curve-wrapper">
-										<div class="gallery-header" style="background-color:rgb(245, 245, 245); color: rgb(26, 26, 26); border-radius: 4px; box-shadow: 0 1px 4px rgba(0,0,0,0.1); height: 300px;">
-											<h6 style="font-weight: bold; text-align:center;">EAT-DA-BURGER</h6>
-											<p >
-												Food app that lets users input types of burgers they would like to eat and stores them on a database "wish list" until eaten.
-											</p>
-											
-											<p style="font-weight: bold;">TECHNOLOGY: </p>
-											<p>
-												Node, Express, MySQL, Handlebars
-											</p>
-
-											<a href="https://github.com/cmdavies10/eat-da-burger"> <i class="fab fa-github fa-fw" style="font-size: 24px; color:rgb(0, 61, 192); font-weight: bolder;"></i></a>
-								
-											<a href="https://eat-da-burger-cmd.herokuapp.com/"> <i class="fas fa-external-link-alt" style="font-size: 24px; color:rgb(0, 61, 192); font-weight: bolder;"></i></a>
-										</div>
-
-										<div class="gallery-body" style="font-size: 12px;">
-											<div class="title-wrapper">
-												<h4>Eat-Da-Burger</h4>
-											</div>
-											<img src="/assets/eatdaburger.png" alt="burger-logo"/>
-											<h5>OVERVIEW</h5>
-											<p class="description">
-												Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
+												Game of Memories is a React application game that challenges the user to choose a character from Game of Thrones. After the first click, each subsequent click shuffles the images in a random order.
 											</p>
 											<p class="description">
-												Whenever a user submits a burger's name, your app will display the burger on the "Wish List" -- waiting to be devoured. 
+												Points are scored for each click of a character that has not yet been chosen, however the game is lost and the score count reset to zero if a duplicate choice has been made.
 											</p>
-											<p class="description">
-												Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the devoured section of the page.
-											</p>
-											<p class="description">
-												The app will store every burger in a database, whether devoured or not.
-											</p>
-											<h5>TECH STACK:</h5>
+											<h6>TECHNOLOGY:</h6>
 											<p class="description">
 												NodeJS, Express, MySQL, Handlebars
 											</p>
